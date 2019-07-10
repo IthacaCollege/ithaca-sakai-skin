@@ -57,12 +57,39 @@ $midnight-blue: #003366;
 $bigstone: #13293D;
 $grenadier: #cc3300;
 
+// Ithaca Colors
+$gray-dark: #213138;
+$blue: #003B71;
+$blue-light: #1169BA;
+$blue-bright: #266DEA;
+$blue-lightest: #73BCFF;
+$blue-lighter: #51ACFF;
+$blue-bright-light: #00DEFF;
+$blue-dark: #162C41;
+$blue-gray: #3A5A79;
+$gray: #738BA3;
+$gray-light: #C3D1D7;
+$gray-lightest: #F3F6F7;
+$green-light: #52EABC;
+$green: #34D5A4;
+$gold: #FFBB00;
+$yellow: #FFE770;
+$brown: #D5AE91;
+$gray-brown: #D9D7D2;
+$brown-light: #E8E5D9;
+$gray-lighter: #EEEEEE;
+$white: #FFFFFF;
+$red: #EF5350;
+$blue-bright-light-trans: rgba(0, 222, 255, 0.2);
+$gold-trans: rgba(255, 187, 0, 0.2);
+$black: #000000;
+$gray-flat: #9C9C9C;
 
 // Primary Colors
-$background-color: 			         $whisper;
-$background-color-secondary:         $klein;
-$primary-color:    			         $endeavour;
-$primary-color-hover:				 $klein;
+$background-color: 			         $white;
+$background-color-secondary:         $blue-dark;
+$primary-color:    			         $blue;
+$primary-color-hover:				 $blue-bright;
 $primary-color-highContrast:         darken( $primary-color, 4% );	// for use of primary on non-white light backgrounds, such as greys
 $primary-color-shadow:			     adjust-hue( $primary-color, 5 );	// To give primary a darker shadow
 $secondary-color:  			         $grenadier !default;
@@ -90,8 +117,8 @@ $tool-tab-hover-background-color:    $gallery;
 $tool-tab-hover-highlight-color:     $dovegray;
 $tool-tab-active-text-color:         $mine-shaft;
 $tool-tab-active-text-size:          12.5px !default;
-$tool-tab-active-background-color:   $white;
-$tool-tab-active-highlight-color:    $dovegray;
+$tool-tab-active-background-color:   $gray-light;
+$tool-tab-active-highlight-color:    $blue-dark;
 $tool-nav-link-color:                $mine-shaft;
 
 $main-content-background:            $background-color;
@@ -192,7 +219,7 @@ $sites-nav-menu-item-border-right:          $sites-nav-menu-item-border-top !def
 $sites-nav-menu-item-border-bottom:         $sites-nav-menu-item-border-top !default;
 $sites-nav-menu-item-border-left:           $sites-nav-menu-item-border-top !default;
 /* Favorites - item hovered */
-$sites-nav-menu-item-hover-background:      $hawkes;
+$sites-nav-menu-item-hover-background:      $gray-light;
 $sites-nav-menu-item-hover-color:           $primary-color-hover;
 $sites-nav-menu-item-hover-icon-color:      $primary-color-hover;
 $sites-nav-menu-item-hover-border-color:    $button-secondary-hover-border-color;
@@ -201,10 +228,10 @@ $sites-nav-menu-item-hover-border-right:    $sites-nav-menu-item-hover-border-to
 $sites-nav-menu-item-hover-border-bottom:   $sites-nav-menu-item-hover-border-top !default;
 $sites-nav-menu-item-hover-border-left:     $sites-nav-menu-item-hover-border-top !default;
 /* Favorites - item selected */
-$sites-nav-menu-item-selected-background:   $hawkes;
-$sites-nav-menu-item-selected-color:        $primary-color-hover;
-$sites-nav-menu-item-selected-icon-color:   $primary-color-hover;
-$sites-nav-menu-item-selected-border-color: $periwinkle;
+$sites-nav-menu-item-selected-background:   $gray-light;
+$sites-nav-menu-item-selected-color:        $blue-gray;
+$sites-nav-menu-item-selected-icon-color:   $blue-gray;
+$sites-nav-menu-item-selected-border-color: $gray;
 $sites-nav-menu-item-selected-border-top:   1px solid $sites-nav-menu-item-selected-border-color !default;
 $sites-nav-menu-item-selected-border-right: $sites-nav-menu-item-selected-border-top !default;
 $sites-nav-menu-item-selected-border-bottom:$sites-nav-menu-item-selected-border-top !default;
@@ -324,7 +351,7 @@ $tool-menu-item-border-left:                               none;
 
 $tool-menu-item-hover-text-color:                          $primary-color-hover;
 $tool-menu-item-hover-icon-color:                          $primary-color-hover;
-$tool-menu-item-hover-background-color:                    $hawkes;
+$tool-menu-item-hover-background-color:                    $gray-light;
 $tool-menu-item-hover-border-left:                         none;
 
 $tool-menu-item-hidden-text-color:                         $spunpearl;
@@ -337,9 +364,9 @@ $tool-menu-item-hidden-hover-icon-color:                   $tool-menu-item-hover
 $tool-menu-item-hidden-hover-background-color:             $tool-menu-item-hover-background-color;
 $tool-menu-item-hidden-hover-border-left:                  $tool-menu-item-hover-border-left;
 
-$tool-menu-item-selected-text-color:                       $primary-color-hover;
-$tool-menu-item-selected-icon-color:                       $primary-color-hover;
-$tool-menu-item-selected-background-color:                 $hawkes;
+$tool-menu-item-selected-text-color:                       $primary-color;
+$tool-menu-item-selected-icon-color:                       $primary-color;
+$tool-menu-item-selected-background-color:                 $gray-light;
 $tool-menu-item-selected-border-left:                      none;
 
 $tool-menu-item-selected-hover-text-color:                 $tool-menu-item-hover-text-color;
@@ -388,9 +415,9 @@ $measure: 960px !default;
 $banner-height: 52px !default;
 
 /* Logo location */
-$logo: 'https://www.ithaca.edu/themes/custom/ithaca/components/images/ic-primary-logo.svg';
-$logo-height: 66px;
-$logo-width: auto;
+$logo: 'https://ecm.ithaca.edu/wf/images/logo.svg';
+$logo-height: 72px * 0.5 !default;
+$logo-width: 432px * 0.5 !default;
 /* Tool icons */
 $skin-with-icons: true !default;
 $icon-size: 20px !default;
@@ -435,3 +462,10 @@ $instruction-background-color: $white;
 // This should be visible based on your button colors and is based on webkit's default
 
 $focus-outline-color: $california;
+
+
+// Ithaca Custom
+
+#linkNav ul li.Mrphs-sitesNav__menuitem {
+	border-radius: 3px;
+}

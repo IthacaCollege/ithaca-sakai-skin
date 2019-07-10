@@ -9,9 +9,12 @@ Inspired by:
 
 ### Known issues
 
-* [ ] Icons not working
-* [ ] (so much more...)
-* [ ] Need a script to package up theme files
+* [x] Icons not working
+* [ ] Spacing on breadcrumbs
+* [ ] IE stylesheet build (anything else from maven build?)
+* [ ] Colors / consistency
+* [ ] Design review
+* [ ] Script to package up theme files
 
 ### How to use
 

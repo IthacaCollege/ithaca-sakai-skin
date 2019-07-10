@@ -5,7 +5,7 @@ const gulp        = require('gulp'),
     sass        = require('gulp-sass'),
     reload      = browserSync.reload,
     src = {
-        scss: 'src/morpheus-master/sass/*.scss',
+        scss: ['src/morpheus-master/sass/*.scss', 'src/sass/*.scss'],
         css:  'examples/css',
         html: 'examples/*.html'
     };

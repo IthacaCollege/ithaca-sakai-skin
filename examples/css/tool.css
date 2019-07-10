@@ -33,6 +33,10 @@
 /* Icon Overrides */
 /* Footer */
 /* From NYU 11 Skin */
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,700);
+#linkNav ul li.Mrphs-sitesNav__menuitem {
+  border-radius: 3px; }
+
 /* Typography*/
 /* Color palette */
 /* Tool tabs */
@@ -65,7 +69,6 @@
 /* Icon Overrides */
 /* Footer */
 /* From NYU 11 Skin */
-@import url(//fonts.googleapis.com/css?family=Roboto:400,500,700);
 @media only screen and (max-width: 800px) {
   .table-responsive > .table > thead > tr > th,
   .table-responsive > .table > thead > tr > td,
@@ -1146,10 +1149,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #00539b;
+  color: #003B71;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #0736A4;
+    color: #266DEA;
     text-decoration: underline; }
   a:focus {
     outline: 5px auto Highlight;
@@ -1262,7 +1265,7 @@ h1, h2, h3, h4, h5, h6,
   .Mrphs-sakai-samigo .listNav .inlineForm .h6 .pager-instruction {
     font-weight: normal;
     line-height: 1;
-    color: #555555; }
+    color: #C3D1D7; }
 
 h1, .h1,
 h2, .h2,
@@ -1388,7 +1391,7 @@ mark,
   text-transform: capitalize; }
 
 .text-muted {
-  color: #555555; }
+  color: #C3D1D7; }
 
 .text-primary {
   color: #337ab7; }
@@ -1527,7 +1530,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #555555; }
+  border-bottom: 1px dotted #C3D1D7; }
 
 .initialism {
   font-size: 90%; }
@@ -1549,7 +1552,7 @@ blockquote {
     display: block;
     font-size: 80%;
     line-height: 1.42857;
-    color: #555555; }
+    color: #C3D1D7; }
     blockquote footer:before,
     blockquote small:before,
     blockquote .small:before,
@@ -1626,7 +1629,7 @@ pre {
   line-height: 1.42857;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333333;
+  color: #213138;
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 4px; }
@@ -2168,7 +2171,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #555555;
+  color: #C3D1D7;
   text-align: left; }
 
 th {
@@ -2400,7 +2403,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: inherit;
-  color: #333333;
+  color: #213138;
   border: 0;
   border-bottom: 1px solid #e5e5e5; }
 
@@ -3239,7 +3242,7 @@ fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-link {
-  color: #00539b;
+  color: #003B71;
   font-weight: normal;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled],
@@ -3250,13 +3253,13 @@ fieldset[disabled] a.btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #0736A4;
+    color: #266DEA;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
   fieldset[disabled] .btn-link:hover,
   fieldset[disabled] .btn-link:focus {
-    color: #555555;
+    color: #C3D1D7;
     text-decoration: none; }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -3368,12 +3371,12 @@ tbody.collapse.in {
     clear: both;
     font-weight: normal;
     line-height: 1.42857;
-    color: #333333;
+    color: #213138;
     white-space: nowrap; }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: #182328;
   background-color: #f5f5f5; }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
@@ -3383,7 +3386,7 @@ tbody.collapse.in {
   background-color: #337ab7; }
 
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
-  color: #555555; }
+  color: #C3D1D7; }
 
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
@@ -3411,7 +3414,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   font-size: 12px;
   line-height: 1.42857;
-  color: #555555;
+  color: #C3D1D7;
   white-space: nowrap; }
 
 .dropdown-backdrop {
@@ -3745,15 +3748,15 @@ tbody.collapse.in {
         text-decoration: none;
         background-color: #eeeeee; }
     .nav > li.disabled > a, .Mrphs-sakai-profile2 .tab-row ul > li.disabled > a {
-      color: #555555; }
+      color: #C3D1D7; }
       .nav > li.disabled > a:hover, .Mrphs-sakai-profile2 .tab-row ul > li.disabled > a:hover, .nav > li.disabled > a:focus, .Mrphs-sakai-profile2 .tab-row ul > li.disabled > a:focus {
-        color: #555555;
+        color: #C3D1D7;
         text-decoration: none;
         background-color: transparent;
         cursor: not-allowed; }
   .nav .open > a, .Mrphs-sakai-profile2 .tab-row ul .open > a, .nav .open > a:hover, .Mrphs-sakai-profile2 .tab-row ul .open > a:hover, .nav .open > a:focus, .Mrphs-sakai-profile2 .tab-row ul .open > a:focus {
     background-color: #eeeeee;
-    border-color: #00539b; }
+    border-color: #003B71; }
   .nav .nav-divider, .Mrphs-sakai-profile2 .tab-row ul .nav-divider {
     height: 1px;
     margin: 9px 0;
@@ -3775,9 +3778,9 @@ tbody.collapse.in {
       .nav-tabs > li > a:hover, .Mrphs-sakai-profile2 .tab-row ul > li > a:hover {
         border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1); }
     .nav-tabs > li.active > a, .Mrphs-sakai-profile2 .tab-row ul > li.active > a, .nav-tabs > li.active > a:hover, .Mrphs-sakai-profile2 .tab-row ul > li.active > a:hover, .nav-tabs > li.active > a:focus, .Mrphs-sakai-profile2 .tab-row ul > li.active > a:focus {
-      color: #00539b;
+      color: #003B71;
       background-color: #e6e6e6;
-      border: 1px solid #fff;
+      border: 1px solid #FFFFFF;
       border-bottom-color: transparent;
       cursor: default; }
 
@@ -4200,14 +4203,14 @@ tbody.collapse.in {
   background-color: #222;
   border-color: #090909; }
   .navbar-inverse .navbar-brand {
-    color: #7b7b7b; }
+    color: #f1f4f6; }
     .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
       color: #fff;
       background-color: transparent; }
   .navbar-inverse .navbar-text {
-    color: #7b7b7b; }
+    color: #f1f4f6; }
   .navbar-inverse .navbar-nav > li > a {
-    color: #7b7b7b; }
+    color: #f1f4f6; }
     .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
       color: #fff;
       background-color: transparent; }
@@ -4235,7 +4238,7 @@ tbody.collapse.in {
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
       background-color: #090909; }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-      color: #7b7b7b; }
+      color: #f1f4f6; }
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #fff;
         background-color: transparent; }
@@ -4246,11 +4249,11 @@ tbody.collapse.in {
       color: #444;
       background-color: transparent; } }
   .navbar-inverse .navbar-link {
-    color: #7b7b7b; }
+    color: #f1f4f6; }
     .navbar-inverse .navbar-link:hover {
       color: #fff; }
   .navbar-inverse .btn-link {
-    color: #7b7b7b; }
+    color: #f1f4f6; }
     .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
       color: #fff; }
     .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus,
@@ -4271,7 +4274,7 @@ tbody.collapse.in {
       padding: 0 5px;
       color: #ccc; }
   .breadcrumb > .active {
-    color: #555555; }
+    color: #C3D1D7; }
 
 .pagination {
   display: inline-block;
@@ -4287,7 +4290,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.42857;
       text-decoration: none;
-      color: #00539b;
+      color: #003B71;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -4304,7 +4307,7 @@ tbody.collapse.in {
   .pagination > li > span:hover,
   .pagination > li > span:focus {
     z-index: 2;
-    color: #0736A4;
+    color: #266DEA;
     background-color: #eeeeee;
     border-color: #ddd; }
   .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
@@ -4322,7 +4325,7 @@ tbody.collapse.in {
   .pagination > .disabled > a,
   .pagination > .disabled > a:hover,
   .pagination > .disabled > a:focus {
-    color: #555555;
+    color: #C3D1D7;
     background-color: #fff;
     border-color: #ddd;
     cursor: not-allowed; }
@@ -4392,7 +4395,7 @@ tbody.collapse.in {
   .pager .disabled > a:hover,
   .pager .disabled > a:focus,
   .pager .disabled > span {
-    color: #555555;
+    color: #C3D1D7;
     background-color: #fff;
     cursor: not-allowed; }
 
@@ -4419,9 +4422,9 @@ a.label:hover, a.label:focus {
   cursor: pointer; }
 
 .label-default {
-  background-color: #555555; }
+  background-color: #C3D1D7; }
   .label-default[href]:hover, .label-default[href]:focus {
-    background-color: #3b3b3b; }
+    background-color: #a4bac3; }
 
 .label-primary {
   background-color: #337ab7; }
@@ -4459,7 +4462,7 @@ a.label:hover, a.label:focus {
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: #555555;
+  background-color: #C3D1D7;
   border-radius: 10px; }
   .badge:empty {
     display: none; }
@@ -4472,7 +4475,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   .list-group-item.active > .badge,
   .nav-pills > .active > a > .badge {
-    color: #00539b;
+    color: #003B71;
     background-color: #fff; }
   .list-group-item > .badge {
     float: right; }
@@ -4545,7 +4548,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #00539b; }
+  border-color: #003B71; }
 
 .alert {
   padding: 15px;
@@ -4770,12 +4773,12 @@ button.list-group-item {
 
 .list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
   background-color: #eeeeee;
-  color: #555555;
+  color: #C3D1D7;
   cursor: not-allowed; }
   .list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading {
     color: inherit; }
   .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
-    color: #555555; }
+    color: #C3D1D7; }
 
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
@@ -5209,14 +5212,14 @@ button.list-group-item-danger {
 .panel-default, .Mrphs-sakai-samigo .listNav .inlineForm {
   border-color: #ddd; }
   .panel-default > .panel-heading, .Mrphs-sakai-samigo .listNav .inlineForm > .panel-heading, .Mrphs-sakai-samigo .listNav .inlineForm .panel-default > .pager-instruction, .Mrphs-sakai-samigo .listNav .inlineForm > .pager-instruction {
-    color: #333333;
+    color: #213138;
     background-color: #f5f5f5;
     border-color: #ddd; }
     .panel-default > .panel-heading + .panel-collapse > .panel-body, .Mrphs-sakai-samigo .listNav .inlineForm > .panel-heading + .panel-collapse > .panel-body, .Mrphs-sakai-samigo .listNav .inlineForm .panel-default > .pager-instruction + .panel-collapse > .panel-body, .Mrphs-sakai-samigo .listNav .inlineForm > .pager-instruction + .panel-collapse > .panel-body {
       border-top-color: #ddd; }
     .panel-default > .panel-heading .badge, .Mrphs-sakai-samigo .listNav .inlineForm > .panel-heading .badge, .Mrphs-sakai-samigo .listNav .inlineForm .panel-default > .pager-instruction .badge, .Mrphs-sakai-samigo .listNav .inlineForm > .pager-instruction .badge {
       color: #f5f5f5;
-      background-color: #333333; }
+      background-color: #213138; }
   .panel-default > .panel-footer + .panel-collapse > .panel-body, .Mrphs-sakai-samigo .listNav .inlineForm > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #ddd; }
 
@@ -6134,9 +6137,9 @@ button.close {
 
 @media only screen and (max-width: 800px) {
   .space_mobile {
-    background: #e1e3f0;
-    border-top: 1px solid #c6c9e2;
-    border-bottom: 1px solid #c6c9e2;
+    background: #fafafa;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
     margin: 0.5em -1.02em;
     padding: 1em 0.95em;
     box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25); } }
@@ -6236,17 +6239,17 @@ button.close {
 .nav.nav-tabs, .Mrphs-sakai-profile2 .tab-row ul, .sakai_tabs, .Mrphs-sakai-profile2 .tab-row ul {
   margin: 0 0.4em 0 0; }
   .nav.nav-tabs > li.active > a, .Mrphs-sakai-profile2 .tab-row ul > li.active > a, .nav.nav-tabs > li.selected > a, .Mrphs-sakai-profile2 .tab-row ul > li.selected > a, .nav.nav-tabs > li.activeTab > a, .Mrphs-sakai-profile2 .tab-row ul > li.activeTab > a, .sakai_tabs > li.active > a, .Mrphs-sakai-profile2 .tab-row ul > li.active > a, .sakai_tabs > li.selected > a, .Mrphs-sakai-profile2 .tab-row ul > li.selected > a, .sakai_tabs > li.activeTab > a, .Mrphs-sakai-profile2 .tab-row ul > li.activeTab > a {
-    background: #fff;
+    background: #C3D1D7;
     border-top: 1px solid #ddd;
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
-    border-bottom: 1px solid #fff !important;
-    color: #00539b; }
+    border-bottom: 1px solid #C3D1D7 !important;
+    color: #003B71; }
     .nav.nav-tabs > li.active > a:hover, .Mrphs-sakai-profile2 .tab-row ul > li.active > a:hover, .nav.nav-tabs > li.selected > a:hover, .Mrphs-sakai-profile2 .tab-row ul > li.selected > a:hover, .nav.nav-tabs > li.activeTab > a:hover, .Mrphs-sakai-profile2 .tab-row ul > li.activeTab > a:hover, .sakai_tabs > li.active > a:hover, .Mrphs-sakai-profile2 .tab-row ul > li.active > a:hover, .sakai_tabs > li.selected > a:hover, .Mrphs-sakai-profile2 .tab-row ul > li.selected > a:hover, .sakai_tabs > li.activeTab > a:hover, .Mrphs-sakai-profile2 .tab-row ul > li.activeTab > a:hover {
-      background: #fff;
-      color: #00539b; }
+      background: #C3D1D7;
+      color: #003B71; }
   .nav.nav-tabs > li > a, .Mrphs-sakai-profile2 .tab-row ul > li > a, .sakai_tabs > li > a, .Mrphs-sakai-profile2 .tab-row ul > li > a {
-    background: #fff;
+    background: #FFFFFF;
     border: 1px solid #ddd !important;
     color: #656565;
     cursor: pointer;
@@ -6254,9 +6257,9 @@ button.close {
     text-decoration: none; }
 
 .button_color, input[type="submit"], input[type="button"], input[type="reset"], button, button.btn-primary {
-  background: #00539b;
-  border: 1px solid #003868;
-  color: #fff !important;
+  background: #003B71;
+  border: 1px solid #00203e;
+  color: #FFFFFF !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto", sans-serif;
@@ -6271,25 +6274,25 @@ button.close {
   -webkit-border-radius: 2px;
   border-radius: 2px; }
   .button_color:before, input[type="submit"]:before, input[type="button"]:before, input[type="reset"]:before, button:before, button.btn-primary:before {
-    color: #fff; }
+    color: #FFFFFF; }
   .button_color:focus, input:focus[type="submit"], input:focus[type="button"], input:focus[type="reset"], button:focus, button.btn-primary:focus {
     outline: 5px groove #5b9dd9 !important;
     outline-offset: 2px !important; }
   .button_color:hover, input:hover[type="submit"], input:hover[type="button"], input:hover[type="reset"], button:hover, button.btn-primary:hover {
-    color: #fff !important;
+    color: #FFFFFF !important;
     text-decoration: none;
-    background: #0736A4;
-    border-color: #052673; }
+    background: #266DEA;
+    border-color: #1455ca; }
     .button_color:hover:before, input[type="submit"]:hover:before, input[type="button"]:hover:before, input[type="reset"]:hover:before, button:hover:before, button.btn-primary:hover:before {
-      color: #fff; }
+      color: #FFFFFF; }
   .button_color:active, input:active[type="submit"], input:active[type="button"], input:active[type="reset"], button:active, button.btn-primary:active {
     outline: 0;
-    color: #fff !important;
+    color: #FFFFFF !important;
     text-decoration: none;
-    background: #0736A4;
-    border-color: #052673; }
+    background: #266DEA;
+    border-color: #1455ca; }
   .button_color[disabled="disabled"], input[disabled="disabled"][type="submit"], input[disabled="disabled"][type="button"], input[disabled="disabled"][type="reset"], .button_color[disabled], input[disabled][type="submit"], input[disabled][type="button"], input[disabled][type="reset"], .button_color[disabled="true"], input[disabled="true"][type="submit"], input[disabled="true"][type="button"], input[disabled="true"][type="reset"], button[disabled="disabled"], button[disabled], button[disabled="true"], button.btn-primary[disabled="disabled"], button.btn-primary[disabled], button.btn-primary[disabled="true"] {
-    background: #00539b;
+    background: #003B71;
     color: white;
     cursor: not-allowed;
     opacity: 0.7; }
@@ -6459,9 +6462,9 @@ a.noPointers, input.noPointers {
     left: 2.5% !important; } }
 
 .ui-dialog .ui-dialog-buttonpane button {
-  background: #00539b;
-  border: 1px solid #003868;
-  color: #fff !important;
+  background: #003B71;
+  border: 1px solid #00203e;
+  color: #FFFFFF !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto", sans-serif;
@@ -6476,25 +6479,25 @@ a.noPointers, input.noPointers {
   -webkit-border-radius: 2px;
   border-radius: 2px; }
   .ui-dialog .ui-dialog-buttonpane button:before {
-    color: #fff; }
+    color: #FFFFFF; }
   .ui-dialog .ui-dialog-buttonpane button:focus {
     outline: 5px groove #5b9dd9 !important;
     outline-offset: 2px !important; }
   .ui-dialog .ui-dialog-buttonpane button:hover {
-    color: #fff !important;
+    color: #FFFFFF !important;
     text-decoration: none;
-    background: #0736A4;
-    border-color: #052673; }
+    background: #266DEA;
+    border-color: #1455ca; }
     .ui-dialog .ui-dialog-buttonpane button:hover:before {
-      color: #fff; }
+      color: #FFFFFF; }
   .ui-dialog .ui-dialog-buttonpane button:active {
     outline: 0;
-    color: #fff !important;
+    color: #FFFFFF !important;
     text-decoration: none;
-    background: #0736A4;
-    border-color: #052673; }
+    background: #266DEA;
+    border-color: #1455ca; }
   .ui-dialog .ui-dialog-buttonpane button[disabled="disabled"], .ui-dialog .ui-dialog-buttonpane button[disabled], .ui-dialog .ui-dialog-buttonpane button[disabled="true"] {
-    background: #00539b;
+    background: #003B71;
     color: white;
     cursor: not-allowed;
     opacity: 0.7; }
@@ -6515,7 +6518,7 @@ label.panelGridLabel {
   overflow: visible;
   border: 2px dashed #353535 !important;
   border-radius: 5px;
-  background-color: #fff !important; }
+  background-color: #FFFFFF !important; }
   .dropzone:hover {
     border-color: #424242 !important;
     background-color: white !important; }
@@ -6535,7 +6538,7 @@ body {
   font-weight: 400;
   line-height: 1.55; }
   body.Mrphs-portalBody {
-    background-color: #E8E9F3; }
+    background-color: #FFFFFF; }
     @media only screen and (max-width: 800px) {
       body.Mrphs-portalBody {
         padding: 52px 0 0 0; } }
@@ -6546,23 +6549,23 @@ a {
     color: #656565;
     text-decoration: none; }
   a[href] {
-    color: #00539b;
+    color: #003B71;
     text-decoration: underline; }
     a[href]:focus, a[href]::-moz-focus-inner {
       outline-color: invert; }
     a[href]:hover {
-      color: #0736A4;
+      color: #266DEA;
       background-color: transparent;
       text-decoration: underline; }
     a[href]:active {
-      color: #0736A4;
+      color: #266DEA;
       background-color: transparent; }
     a[href].btn {
       text-decoration: none; }
     a[href].btn-primary {
-      background: #00539b;
-      border: 1px solid #003868;
-      color: #fff !important;
+      background: #003B71;
+      border: 1px solid #00203e;
+      color: #FFFFFF !important;
       cursor: pointer;
       display: inline-block;
       font-family: "Roboto", sans-serif;
@@ -6577,25 +6580,25 @@ a {
       -webkit-border-radius: 2px;
       border-radius: 2px; }
       a[href].btn-primary:before {
-        color: #fff; }
+        color: #FFFFFF; }
       a[href].btn-primary:focus {
         outline: 5px groove #5b9dd9 !important;
         outline-offset: 2px !important; }
       a[href].btn-primary:hover {
-        color: #fff !important;
+        color: #FFFFFF !important;
         text-decoration: none;
-        background: #0736A4;
-        border-color: #052673; }
+        background: #266DEA;
+        border-color: #1455ca; }
         a[href].btn-primary:hover:before {
-          color: #fff; }
+          color: #FFFFFF; }
       a[href].btn-primary:active {
         outline: 0;
-        color: #fff !important;
+        color: #FFFFFF !important;
         text-decoration: none;
-        background: #0736A4;
-        border-color: #052673; }
+        background: #266DEA;
+        border-color: #1455ca; }
       a[href].btn-primary[disabled="disabled"], a[href].btn-primary[disabled], a[href].btn-primary[disabled="true"] {
-        background: #00539b;
+        background: #003B71;
         color: white;
         cursor: not-allowed;
         opacity: 0.7; }
@@ -6762,7 +6765,7 @@ span.marker {
     box-shadow: 0px 0em 1em rgba(0, 0, 0, 0.5);
     left: 0;
     z-index: 1001;
-    background-color: #fff; }
+    background-color: #FFFFFF; }
     body.toolsNav--displayed #toolMenuWrap #toolSubsitesContainer {
       overflow-y: auto;
       height: 100%; }
@@ -6776,7 +6779,7 @@ span.marker {
       position: absolute;
       pointer-events: none;
       border-color: rgba(255, 255, 255, 0);
-      border-bottom-color: #fff;
+      border-bottom-color: #FFFFFF;
       border-width: 7px;
       outline: 0; }
     body.toolsNav--displayed #toolMenuWrap .Mrphs-toolsNav__menuitem--title {
@@ -6797,12 +6800,12 @@ span.marker {
       line-height: 1.05;
       font-size: 1em;
       font-weight: 300;
-      background: #fff;
+      background: #FFFFFF;
       margin: 0;
       border-bottom: 1px solid #f2f2f2;
       position: relative; }
   body.toolsNav--displayed #toolMenu, body.toolsNav--displayed #subSites {
-    background-color: #fff; }
+    background-color: #FFFFFF; }
     body.toolsNav--displayed #toolMenu ul, body.toolsNav--displayed #subSites ul {
       list-style: none;
       padding: 0; }
@@ -6826,7 +6829,7 @@ span.marker {
   body.toolsNav--displayed #portalMask {
     background: transparent; }
   body.sitesNav--displayed .Mrphs-mainHeader.is-maximized .siteNavWrap {
-    background: #00539b;
+    background: #003B71;
     margin-top: -3em;
     min-height: 100%;
     padding-top: 3em;
@@ -6844,15 +6847,15 @@ span.marker {
       display: block;
       margin: 1.5em; }
       body.sitesNav--displayed #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a {
-        background: #E8E9F3; }
+        background: #FFFFFF; }
       body.sitesNav--displayed #linkNav ul li.Mrphs-sitesNav__menuitem a {
-        background: #062e8c;
+        background: #101f2e;
         border-right: 0px none; }
       body.sitesNav--displayed #linkNav ul li.Mrphs-sitesNav__menuitem.Mrphs-sitesNav__menuitem--myworkspace {
-        background: #00539b;
+        background: #003B71;
         margin: 0 0 0 0; }
         body.sitesNav--displayed #linkNav ul li.Mrphs-sitesNav__menuitem.Mrphs-sitesNav__menuitem--myworkspace a {
-          background: #00539b; }
+          background: #003B71; }
     body.sitesNav--displayed #linkNav ul.Mrphs-sitesNav__menu {
       margin: 1em 0.8em 0 1.2em; }
   body.sitesNav--displayed .Mrphs-mainHeader .Mrphs-headerLogo {
@@ -9269,7 +9272,7 @@ a.Mrphs-toolsNav__menuitem--link[href*="!gateway"] .icon-sakai--sakai-motd:befor
 
 .Mrphs-portalWrapper {
   position: relative;
-  background: #E8E9F3; }
+  background: #FFFFFF; }
 
 #pageBody {
   align-items: stretch;
@@ -9298,7 +9301,7 @@ a.Mrphs-toolsNav__menuitem--link[href*="!gateway"] .icon-sakai--sakai-motd:befor
       width: 48%; } }
 
 .Mrphs-mainContent {
-  background: #E8E9F3;
+  background: #FFFFFF;
   padding-top: 1em; }
 
 @media only screen and (max-width: 800px) {
@@ -9314,7 +9317,7 @@ a.Mrphs-toolsNav__menuitem--link[href*="!gateway"] .icon-sakai--sakai-motd:befor
       margin: 0; } }
 
 .Mrphs-container--footer {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
 
 .Mrphs-footer {
@@ -9356,17 +9359,17 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
     overflow: hidden;
     padding: 0 1em;
     height: 52px;
-    background: #0736A4;
+    background: #162C41;
     text-align: center;
     -webkit-transition: width 0.5s linear 0s 0s ease 0s;
     /* Safari 3.1 to 6.0 */
     transition: width 0.5s linear 0s 0s ease 0s; }
     .Mrphs-mainHeader .Mrphs-headerLogo .Mrphs-headerLogo--institution {
-      background: url("https://www.ithaca.edu/themes/custom/ithaca/components/images/ic-primary-logo.svg") no-repeat center center;
-      width: auto;
+      background: url("https://ecm.ithaca.edu/wf/images/logo.svg") no-repeat center center;
+      width: 216px;
       height: 100%;
       float: left;
-      background-size: auto 66px; }
+      background-size: 216px 36px; }
   .Mrphs-mainHeader .Mrphs-loginUser {
     display: inline-flex;
     display: -webkit-flex;
@@ -9390,7 +9393,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
     .Mrphs-mainHeader .Mrphs-loginUser p {
       margin: 0.05em 1.5em 0 0; }
   .Mrphs-mainHeader.is-maximized .siteNavWrap {
-    background: #fff; }
+    background: #FFFFFF; }
     @media only screen and (max-width: 800px) {
       .Mrphs-mainHeader.is-maximized .siteNavWrap {
         display: none; } }
@@ -9405,7 +9408,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
     overflow: visible; }
   @media only screen and (max-width: 800px) {
     .Mrphs-mainHeader {
-      background: #00539b;
+      background: #003B71;
       position: fixed;
       top: 0;
       width: 100%;
@@ -9444,11 +9447,11 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
       display: block;
       padding: 0.65em;
       text-decoration: none;
-      color: #004887;
+      color: #00305d;
       line-height: 1em; }
       .userNav__subnav li a:focus, #mastLogin #loginLinks ul li a:focus, .userNav__subnav li a:hover, #mastLogin #loginLinks ul li a:hover, .userNav__subnav li a:active, #mastLogin #loginLinks ul li a:active {
         text-decoration: underline;
-        color: #004887; }
+        color: #00305d; }
       .userNav__subnav li a .toolMenuIcon, #mastLogin #loginLinks ul li a .toolMenuIcon {
         vertical-align: sub;
         margin: 0 0.5em 0 0; }
@@ -9475,7 +9478,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
   .userNav__subnav .Mrphs-userData, #mastLogin #loginLinks ul .Mrphs-userData {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 0.5em;
-    background-color: #fff; }
+    background-color: #FFFFFF; }
   .userNav__subnav .Mrphs-userNav__submenuitem--profile-and-image, #mastLogin #loginLinks ul .Mrphs-userNav__submenuitem--profile-and-image {
     display: inline-block;
     vertical-align: top;
@@ -9490,8 +9493,8 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
       margin-left: 0.5em; }
 
 .Mrphs-topHeader {
-  background: #0736A4;
-  color: #E8E9F3;
+  background: #162C41;
+  color: #FFFFFF;
   font-size: 1em;
   height: auto;
   width: 100%;
@@ -9503,7 +9506,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
     align-items: center;
     -webkit-align-items: center;
     /* safari */
-    color: #fff; }
+    color: #FFFFFF; }
     @media only screen and (max-width: 800px) {
       .Mrphs-topHeader a {
         line-height: 1; } }
@@ -9601,15 +9604,15 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
         text-decoration: none; }
         @media only screen and (max-width: 800px) {
           .Mrphs-topHeader .Mrphs-loginNav #roleSwitch #roleSwitchAnchor {
-            color: #00539b; } }
+            color: #003B71; } }
         @media only screen and (min-width: 801px) {
           .Mrphs-topHeader .Mrphs-loginNav #roleSwitch #roleSwitchAnchor {
-            color: #fff;
+            color: #FFFFFF;
             display: inline-block; } }
         .Mrphs-topHeader .Mrphs-loginNav #roleSwitch #roleSwitchAnchor:hover span, .Mrphs-topHeader .Mrphs-loginNav #roleSwitch #roleSwitchAnchor:active span {
           text-decoration: underline; }
         .Mrphs-topHeader .Mrphs-loginNav #roleSwitch #roleSwitchAnchor.Mrphs-roleSwitch__exit {
-          color: #fff; }
+          color: #FFFFFF; }
   @media only screen and (max-width: 800px) {
     .Mrphs-topHeader {
       display: flex;
@@ -9697,7 +9700,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
   #mastLogin #loginUser.has-avatar:active .has-avatar .Mrphs-userNav__submenuitem--userid,
   #mastLogin #loginUser.has-avatar .Mrphs-userNav__submenuitem--username:hover,
   #mastLogin #loginUser.has-avatar .Mrphs-userNav__submenuitem--username:active {
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: underline; }
 
 #mastLogin .has-avatar, #mastLogin .no-avatar {
@@ -9721,12 +9724,12 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
     margin-left: 0.5em;
     font-family: FontAwesome;
     font-size: 1em;
-    color: #fff; }
+    color: #FFFFFF; }
   #mastLogin .no-avatar span {
     line-height: 1.2; }
   #mastLogin .no-avatar:hover .Mrphs-userNav__submenuitem--username, #mastLogin .no-avatar:active .Mrphs-userNav__submenuitem--username {
     text-decoration: none;
-    color: #fff; }
+    color: #FFFFFF; }
   #mastLogin .no-avatar .Mrphs-userNav__submenuitem--userid {
     display: none; }
 
@@ -9811,7 +9814,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
         left: auto;
         right: 1.65em; } }
   #mastLogin #loginLinks ul {
-    background-color: #fff;
+    background-color: #FFFFFF;
     text-align: left;
     padding: 0 0 0 0;
     margin: 0.48em 1em 0 0.9em; }
@@ -9825,7 +9828,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
       position: absolute;
       pointer-events: none;
       border-color: transparent;
-      border-bottom-color: #fff;
+      border-bottom-color: #FFFFFF;
       border-width: 7px;
       outline: 0; }
       @media only screen and (max-width: 800px) {
@@ -9858,10 +9861,10 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
         font-weight: 400;
         padding: 0.7em 0.65em; } }
     #mastLogin #loginLinks ul a {
-      color: #00539b;
+      color: #003B71;
       padding: 0.25em 0.25em; }
       #mastLogin #loginLinks ul a:hover, #mastLogin #loginLinks ul a:active {
-        color: #006ece; }
+        color: #0056a4; }
   #mastLogin #loginLinks .Mrphs-userNav__drop-btn i {
     position: relative;
     top: -0.6em;
@@ -9893,7 +9896,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
   #Mrphs-academic-bullhorn:hover,
   #Mrphs-social-bullhorn:hover {
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
     text-shadow: 0 0 5px rgba(165, 165, 165, 0.95);
     /* same as profile picture hover */ }
 
@@ -9909,7 +9912,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
   text-decoration: none; }
   .view-all-sites-btn a:hover, .Mrphs-quickLinksNav__popup a:hover, .view-all-sites-btn a:active, .Mrphs-quickLinksNav__popup a:active {
     text-decoration: none;
-    color: #fff; }
+    color: #FFFFFF; }
     .view-all-sites-btn a:hover i, .Mrphs-quickLinksNav__popup a:hover i, .view-all-sites-btn a:active i, .Mrphs-quickLinksNav__popup a:active i {
       text-shadow: 0 0 5px rgba(165, 165, 165, 0.95);
       /* same as profile picture hover */ }
@@ -9933,7 +9936,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
   display: -webkit-flex;
   /* safari */
   padding-left: 0.5em;
-  background-color: #fff;
+  background-color: #FFFFFF;
   min-height: 52px;
   padding: 4px 8px; }
 
@@ -9971,7 +9974,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
         color: #606060; }
     #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover,
     #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:active {
-      color: #0736A4; }
+      color: #266DEA; }
       #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.fa, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i[class*="icon-sakai--"], #linkNav ul .Mrphs-mainHeader .Mrphs-loginUser li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover a i.login-Icon, .Mrphs-mainHeader .Mrphs-loginUser #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover a i.login-Icon, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-sitesNav__drop, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-sitesNav__dropdown, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-sitesNav__doubledrop, #linkNav #toolMenu ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #toolMenu #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #linkNav #subSites ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #subSites #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #linkNav .floatingToolMenu ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolsNav__menuitem--link.is-invisible:after, .floatingToolMenu #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link:before, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolTitleNav__link:before, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link--directurl, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolTitleNav__link--directurl, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link--help-popup, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolTitleNav__link--help-popup, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link--edit, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolTitleNav__link--edit, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link--reset, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-toolTitleNav__link--reset, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.icon, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.Mrphs-footerApp--icon, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIcon, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIcon, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-1, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-1, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-2, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-2, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-3, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-3, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-4, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-4, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-5, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-5, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-6, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-6, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconDraft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconDraft, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-1-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-1-draft, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-2-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-2-draft, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-3-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-3-draft, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-4-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-4-draft, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-5-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-5-draft, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-6-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconThreshold-6-draft, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconWarn, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconWarn, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconPending, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconPending, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-assignment-grades i.contentReviewIconNoService, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.contentReviewIconNoService, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-resources li[data_visible="false"] .jstree-anchor i.jstree-icon, .Mrphs-sakai-resources li[data_visible="false"] .jstree-anchor #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.jstree-icon, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-resources .dropdown-menu i.close-button, .Mrphs-sakai-resources .dropdown-menu #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.close-button, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover .Mrphs-sakai-syllabus i.editItem:hover:before, .Mrphs-sakai-syllabus #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.editItem:hover:before, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.site-favorite-icon.site-favorite:before, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.site-favorite-icon.site-nonfavorite:before, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.site-favorite-icon.site-workspace:before, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover #ckeditorPreview.modal i.sakaipreview-print, #ckeditorPreview.modal #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.sakaipreview-print, #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover #ckeditorPreview.modal i.sakaipreview-close, #ckeditorPreview.modal #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:hover i.sakaipreview-close,
       #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:active i.fa,
       #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:active i[class*="icon-sakai--"],
@@ -10045,13 +10048,13 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
       #ckeditorPreview.modal #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:active i.sakaipreview-print,
       #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:active #ckeditorPreview.modal i.sakaipreview-close,
       #ckeditorPreview.modal #linkNav ul li.Mrphs-sitesNav__menuitem:not(.dropdown-is-visible) > .link-container:active i.sakaipreview-close {
-        color: #0736A4; }
+        color: #266DEA; }
     #linkNav ul li.Mrphs-sitesNav__menuitem.dropdown-is-visible, #linkNav ul li.Mrphs-sitesNav__menuitem:hover {
       border-top: 1px solid rgba(0, 0, 0, 0.15);
       border-right: 1px solid rgba(0, 0, 0, 0.15);
       border-bottom: 1px solid rgba(0, 0, 0, 0.15);
       border-left: 1px solid rgba(0, 0, 0, 0.15);
-      background: #dfe8fe; }
+      background: #C3D1D7; }
     #linkNav ul li.Mrphs-sitesNav__menuitem.dropdown-is-visible:after {
       border-bottom: 1px solid transparent;
       content: "";
@@ -10080,7 +10083,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
         transform: rotate(180deg);
         top: 40%; }
       #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop:hover, #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__dropdown:hover {
-        color: #0736A4; }
+        color: #266DEA; }
     #linkNav ul li.Mrphs-sitesNav__menuitem ul {
       background: linear-gradient(-180deg, #fcfcfc 0%, #f6f6f6 90%);
       display: none;
@@ -10127,16 +10130,16 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
       #linkNav ul li.Mrphs-sitesNav__menuitem ul.is-hidden {
         display: none; }
     #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected {
-      background: #dfe8fe;
-      border-top: 1px solid #D1DAEE;
-      border-right: 1px solid #D1DAEE;
-      border-bottom: 1px solid #D1DAEE;
-      border-left: 1px solid #D1DAEE;
+      background: #C3D1D7;
+      border-top: 1px solid #738BA3;
+      border-right: 1px solid #738BA3;
+      border-bottom: 1px solid #738BA3;
+      border-left: 1px solid #738BA3;
       /* hover for sites when tool quick-menu isn't open */ }
       #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container {
-        color: #0736A4; }
+        color: #3A5A79; }
         #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.fa, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i[class*="icon-sakai--"], #linkNav ul .Mrphs-mainHeader .Mrphs-loginUser li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.login-Icon, .Mrphs-mainHeader .Mrphs-loginUser #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.login-Icon, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-sitesNav__drop, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-sitesNav__dropdown, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-sitesNav__doubledrop, #linkNav #toolMenu ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #toolMenu #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #linkNav #subSites ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #subSites #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #linkNav .floatingToolMenu ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolsNav__menuitem--link.is-invisible:after, .floatingToolMenu #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolsNav__menuitem--link.is-invisible:after, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link:before, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolTitleNav__link:before, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link--directurl, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolTitleNav__link--directurl, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link--help-popup, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolTitleNav__link--help-popup, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link--edit, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolTitleNav__link--edit, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-toolTitleNav i.Mrphs-toolTitleNav__link--reset, .Mrphs-toolTitleNav #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-toolTitleNav__link--reset, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.icon, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.Mrphs-footerApp--icon, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIcon, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIcon, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-1, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-1, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-2, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-2, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-3, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-3, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-4, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-4, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-5, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-5, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-6, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-6, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconDraft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconDraft, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-1-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-1-draft, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-2-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-2-draft, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-3-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-3-draft, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-4-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-4-draft, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-5-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-5-draft, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconThreshold-6-draft, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconThreshold-6-draft, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconWarn, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconWarn, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconPending, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconPending, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-assignment-grades i.contentReviewIconNoService, .Mrphs-sakai-assignment-grades #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.contentReviewIconNoService, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-resources li[data_visible="false"] .jstree-anchor i.jstree-icon, .Mrphs-sakai-resources li[data_visible="false"] .jstree-anchor #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.jstree-icon, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-resources .dropdown-menu i.close-button, .Mrphs-sakai-resources .dropdown-menu #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.close-button, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container .Mrphs-sakai-syllabus i.editItem:hover:before, .Mrphs-sakai-syllabus #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.editItem:hover:before, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.site-favorite-icon.site-favorite:before, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.site-favorite-icon.site-nonfavorite:before, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.site-favorite-icon.site-workspace:before, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container #ckeditorPreview.modal i.sakaipreview-print, #ckeditorPreview.modal #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.sakaipreview-print, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container #ckeditorPreview.modal i.sakaipreview-close, #ckeditorPreview.modal #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a.link-container i.sakaipreview-close {
-          color: #0736A4; }
+          color: #3A5A79; }
       #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected:not(.dropdown-is-visible) > .link-container:hover,
       #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected:not(.dropdown-is-visible) > .link-container:active {
         color: #353535; }
@@ -10221,7 +10224,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
         border-left: 1px solid rgba(0, 0, 0, 0.15);
         background: rgba(0, 0, 0, 0.1); }
       #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.dropdown-is-visible:after {
-        border-bottom: 1px solid #dfe8fe;
+        border-bottom: 1px solid #C3D1D7;
         content: "";
         width: 100%;
         position: absolute;
@@ -10244,9 +10247,9 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
       margin-right: 0.35em;
       font-size: 1em; }
     #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu {
-      background: #fff; }
+      background: #FFFFFF; }
       #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a {
-        background: #fff;
+        background: #FFFFFF;
         color: #353535;
         position: relative; }
         #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a .toolMenuIcon {
@@ -10260,10 +10263,10 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
           top: 0;
           left: 0; }
         #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a:hover, #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a:active {
-          background: #dfe8fe;
-          color: #0736A4; }
+          background: #C3D1D7;
+          color: #266DEA; }
           #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a:hover .toolMenuIcon, #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a:active .toolMenuIcon {
-            color: #0736A4; }
+            color: #266DEA; }
           #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a:hover:before, #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a:active:before {
             border-left-color: rgba(0, 0, 0, 0.15); }
       #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem.Mrphs-sitesNav__submenuitem__gotosite {
@@ -10276,7 +10279,7 @@ body.is-logged-out .Mrphs-loginUser li a .login-Icon {
         #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem.Mrphs-sitesNav__submenuitem__gotosite:hover {
           border-top: 1px solid rgba(0, 0, 0, 0.1); }
           #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem.Mrphs-sitesNav__submenuitem__gotosite:hover > a:after {
-            color: #0736A4; }
+            color: #266DEA; }
 
 @media only screen and (min-width: 1031px) {
   #linkNav.opened {
@@ -10302,8 +10305,8 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
   display: none; }
 
 #show-all-sites-mobile {
-  color: #0736A4;
-  background: #f9f9fc;
+  color: #162C41;
+  background: white;
   display: none;
   cursor: pointer;
   position: absolute;
@@ -10312,7 +10315,7 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
   top: 0em;
   right: 0em;
   width: 2.5em;
-  border-left: 1px solid #052673;
+  border-left: 1px solid #09121b;
   padding: 0 9px;
   outline: 0; }
   #show-all-sites-mobile > div {
@@ -10340,7 +10343,7 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
   margin-left: 0em;
   width: 100%;
   padding: 3px;
-  color: #0736A4;
+  color: #162C41;
   display: block;
   text-align: center;
   background-color: #F6ECB7;
@@ -10408,9 +10411,9 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
   padding: 0 0 0 0; }
   @media only screen and (min-width: 1031px) {
     .Mrphs-skipNav__menu a:focus {
-      background-color: #00539b;
-      border: 1px solid #E8E9F3;
-      color: #E8E9F3;
+      background-color: #003B71;
+      border: 1px solid #FFFFFF;
+      color: #FFFFFF;
       display: block !important;
       font-size: 0.9em;
       left: 5px;
@@ -10442,7 +10445,7 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
         display: block;
         min-height: 48px; }
         .Mrphs-skipNav__menu li.Mrphs-skipNav__menuitem.Mrphs-skipNav__menuitem--worksite {
-          background: #fff;
+          background: #FFFFFF;
           position: relative;
           border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
           .Mrphs-skipNav__menu li.Mrphs-skipNav__menuitem.Mrphs-skipNav__menuitem--worksite a {
@@ -10450,7 +10453,7 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
             color: #353535;
             padding: 0 10px 0 14px;
             position: relative;
-            background: #fff;
+            background: #FFFFFF;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
             .Mrphs-skipNav__menu li.Mrphs-skipNav__menuitem.Mrphs-skipNav__menuitem--worksite a:before {
               content: '';
@@ -10460,7 +10463,7 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
               top: 10%;
               border-left: 1px solid rgba(0, 0, 0, 0.1); }
         .Mrphs-skipNav__menu li.Mrphs-skipNav__menuitem.Mrphs-skipNav__menuitem--tools {
-          background: #E8E9F3;
+          background: #FFFFFF;
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
           .Mrphs-skipNav__menu li.Mrphs-skipNav__menuitem.Mrphs-skipNav__menuitem--tools a {
             float: left;
@@ -10475,7 +10478,7 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
               top: 10%;
               border-right: 1px solid transparent; }
           .Mrphs-skipNav__menu li.Mrphs-skipNav__menuitem.Mrphs-skipNav__menuitem--tools a.Mrphs-skipNav--toolName {
-            color: #00539b; }
+            color: #003B71; }
             .Mrphs-skipNav__menu li.Mrphs-skipNav__menuitem.Mrphs-skipNav__menuitem--tools a.Mrphs-skipNav--toolName::after {
               border-right: 0px none; }
         .Mrphs-skipNav__menu li.Mrphs-skipNav__menuitem--content, .Mrphs-skipNav__menu li.Mrphs-skipNav__menuitem--accessibility {
@@ -10494,11 +10497,11 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
               text-shadow: 0 0 5px rgba(165, 165, 165, 0.95); } }
 
 .Mrphs-siteHierarchy {
-  background: #fff;
+  background: #FFFFFF;
   min-height: 3.5em;
   /* Show the breadcrumbs on multiple rows (when there are parent sites), and use hover animations */ }
   .Mrphs-siteHierarchy h1 {
-    color: #E8E9F3;
+    color: #FFFFFF;
     font-weight: 300;
     margin: 0; }
   .Mrphs-siteHierarchy a {
@@ -10523,14 +10526,14 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
         /* Since we'll start on our own line, don't pad */
         margin-left: 0; }
       .Mrphs-siteHierarchy .Mrphs-hierarchy--siteName a:hover {
-        color: #0736A4;
-        border-bottom: 1px solid #0736A4; }
+        color: #266DEA;
+        border-bottom: 1px solid #266DEA; }
       .Mrphs-siteHierarchy .Mrphs-breadcrumb--icon {
         display: inline-block;
         text-align: right;
         width: 24px; }
       .Mrphs-siteHierarchy a.Mrphs-hierarchy--toolName {
-        color: #00539b;
+        color: #003B71;
         text-transform: uppercase;
         font-size: 110%;
         font-weight: bold;
@@ -10538,7 +10541,7 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
         margin: 0.75em 0.75em 0.25em 1.25em;
         border-bottom: 1px solid transparent; }
         .Mrphs-siteHierarchy a.Mrphs-hierarchy--toolName:hover {
-          border-bottom: 1px solid #0736A4; }
+          border-bottom: 1px solid #266DEA; }
           .Mrphs-siteHierarchy a.Mrphs-hierarchy--toolName:hover .Mrphs-breadcrumb--icon {
             display: none; }
           .Mrphs-siteHierarchy a.Mrphs-hierarchy--toolName:hover .Mrphs-breadcrumb--reset-icon {
@@ -10563,20 +10566,20 @@ body.is-logged-out #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop
       white-space: nowrap;
       left: 0; }
       .Mrphs-siteHierarchy h1 {
-        color: #00539b; }
+        color: #003B71; }
       .Mrphs-siteHierarchy .Mrphs-hierarchy--siteName a:hover .Mrphs-hierarchy--siteName-label {
         text-decoration: underline; }
       .Mrphs-siteHierarchy a.Mrphs-hierarchy--toolName {
         display: none; }
       .Mrphs-siteHierarchy a.Mrphs-hierarchy--toolName:hover {
-        color: #00539b;
-        border-bottom: 1px solid #0736A4; }
+        color: #003B71;
+        border-bottom: 1px solid #266DEA; }
       .Mrphs-siteHierarchy .Mrphs-hierarchy--serviceName, .Mrphs-siteHierarchy .Mrphs-hierarchy--serviceNameSeparator {
         display: none; }
       .Mrphs-siteHierarchy .Mrphs-breadcrumb--reset-icon {
         display: none; }
       .Mrphs-siteHierarchy .Mrphs-hierarchy-item {
-        color: #00539b; }
+        color: #003B71; }
       .Mrphs-siteHierarchy .Mrphs-hierarchy--siteNameSeparator {
         display: none; }
       .Mrphs-siteHierarchy.moving {
@@ -10622,7 +10625,7 @@ body.is-logged-out .Mrphs-mainHeader.is-maximized ~ #container #toolMenuWrap {
         width: auto;
         border-radius: 0 5px 5px 0;
         line-height: 40px;
-        background: #dfe8fe;
+        background: #C3D1D7;
         border-top: 1px solid transparent;
         border-right: 1px solid transparent;
         border-bottom: 1px solid transparent;
@@ -10630,13 +10633,13 @@ body.is-logged-out .Mrphs-mainHeader.is-maximized ~ #container #toolMenuWrap {
     body.Mrphs-toolMenu-collapsed #toolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:after, body.Mrphs-toolMenu-collapsed #subSites ul li .Mrphs-toolsNav__menuitem--link.is-invisible:after, body.Mrphs-toolMenu-collapsed .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:after {
       display: none; }
     body.Mrphs-toolMenu-collapsed #toolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed #subSites ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover .Mrphs-toolsNav__menuitem--title {
-      background: #dfe8fe; }
+      background: #C3D1D7; }
     body.Mrphs-toolMenu-collapsed #toolMenu ul li .Mrphs-toolsNav__menuitem--link span.Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed #subSites ul li .Mrphs-toolsNav__menuitem--link span.Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link span.Mrphs-toolsNav__menuitem--title {
       white-space: pre; }
   body.Mrphs-toolMenu-collapsed #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--title {
-    background: #aec4fc; }
+    background: #a4bac3; }
   body.Mrphs-toolMenu-collapsed #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--title {
-    background: #aec4fc; }
+    background: #a4bac3; }
   body.Mrphs-toolMenu-collapsed #toolMenu ul li:nth-of-type(2) .Mrphs-toolsNav__menuitem--link:hover, body.Mrphs-toolMenu-collapsed #subSites ul li:nth-of-type(2) .Mrphs-toolsNav__menuitem--link:hover, body.Mrphs-toolMenu-collapsed .floatingToolMenu ul li:nth-of-type(2) .Mrphs-toolsNav__menuitem--link:hover {
     border-top: 1px solid transparent; }
   body.Mrphs-toolMenu-collapsed #toolMenu ul li .Mrphs-toolsNav__menuitem--icon, body.Mrphs-toolMenu-collapsed #subSites ul li .Mrphs-toolsNav__menuitem--icon, body.Mrphs-toolMenu-collapsed .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--icon {
@@ -10657,7 +10660,7 @@ body.is-logged-out .Mrphs-mainHeader.is-maximized ~ #container #toolMenuWrap {
     body.Mrphs-toolMenu-collapsed #toolMenu.floating ul li a.is-invisible .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed #subSites.floating ul li a.is-invisible .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed .floatingToolMenu.floating ul li a.is-invisible .Mrphs-toolsNav__menuitem--title {
       display: block; }
     body.Mrphs-toolMenu-collapsed #toolMenu.floating ul li a.is-invisible:hover, body.Mrphs-toolMenu-collapsed #subSites.floating ul li a.is-invisible:hover, body.Mrphs-toolMenu-collapsed .floatingToolMenu.floating ul li a.is-invisible:hover {
-      background: #00539b; }
+      background: #003B71; }
       body.Mrphs-toolMenu-collapsed #toolMenu.floating ul li a.is-invisible:hover .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed #subSites.floating ul li a.is-invisible:hover .Mrphs-toolsNav__menuitem--title, body.Mrphs-toolMenu-collapsed .floatingToolMenu.floating ul li a.is-invisible:hover .Mrphs-toolsNav__menuitem--title {
         position: relative;
         float: none;
@@ -10682,7 +10685,7 @@ body.is-logged-out .Mrphs-mainHeader.is-maximized ~ #container #toolMenuWrap {
       display: none; } }
 
 #toolMenuWrap {
-  background: #fff;
+  background: #FFFFFF;
   display: block;
   min-width: 200px;
   width: 200px;
@@ -10711,8 +10714,8 @@ body.is-logged-out .Mrphs-mainHeader.is-maximized ~ #container #toolMenuWrap {
   display: none; }
   @media only screen and (max-width: 800px) {
     .Mrphs-toolsNav__title--current-site {
-      color: #fff;
-      background: #003868;
+      color: #FFFFFF;
+      background: #00203e;
       display: block;
       font-size: 1.1em;
       width: 100%;
@@ -10726,7 +10729,7 @@ body.is-logged-out .Mrphs-mainHeader.is-maximized ~ #container #toolMenuWrap {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      box-shadow: inset 0 0 8px rgba(232, 233, 243, 0.15);
+      box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.15);
       -webkit-transition: top 0.25s linear 0s 0s ease 0s;
       /* Safari 3.1 to 6.0 */
       transition: top 0.25s linear 0s 0s ease 0s; }
@@ -10739,7 +10742,7 @@ body.is-logged-out .Mrphs-mainHeader.is-maximized ~ #container #toolMenuWrap {
     padding: 0 0 0 0; }
   @media only screen and (max-width: 800px) {
     #subSites {
-      background: #fff;
+      background: #FFFFFF;
       padding-top: 4px; } }
 
 nav#subSites {
@@ -10791,32 +10794,32 @@ nav#subSites {
       border-bottom: none;
       cursor: pointer;
       font-size: 1.2em;
-      color: #00539b;
-      background-color: #dfe8fe;
+      color: #003B71;
+      background-color: #C3D1D7;
       box-shadow: none; }
       #toolMenu ul li.Mrphs-collapseTools:hover, #toolMenu ul li.Mrphs-collapseTools:focus, #subSites ul li.Mrphs-collapseTools:hover, #subSites ul li.Mrphs-collapseTools:focus, .floatingToolMenu ul li.Mrphs-collapseTools:hover, .floatingToolMenu ul li.Mrphs-collapseTools:focus {
-        color: #0736A4;
+        color: #266DEA;
         border-top: none;
-        background-color: #aec4fc;
+        background-color: #a4bac3;
         box-shadow: none; }
       #toolMenu ul li.Mrphs-collapseTools.min, #subSites ul li.Mrphs-collapseTools.min, .floatingToolMenu ul li.Mrphs-collapseTools.min {
         justify-content: center;
         /* center the arrows when collapsed */
         width: calc(50px - 1px);
         /* width of sidebar minus border edge */
-        color: #00539b;
+        color: #003B71;
         border-top: none;
-        background-color: #dfe8fe;
+        background-color: #C3D1D7;
         box-shadow: none; }
         #toolMenu ul li.Mrphs-collapseTools.min:hover, #toolMenu ul li.Mrphs-collapseTools.min:focus, #subSites ul li.Mrphs-collapseTools.min:hover, #subSites ul li.Mrphs-collapseTools.min:focus, .floatingToolMenu ul li.Mrphs-collapseTools.min:hover, .floatingToolMenu ul li.Mrphs-collapseTools.min:focus {
-          color: #0736A4;
+          color: #266DEA;
           border-top: none;
-          background-color: #aec4fc;
+          background-color: #a4bac3;
           box-shadow: none; }
       #toolMenu ul li.Mrphs-collapseTools button span.fa-angle-double-left, #subSites ul li.Mrphs-collapseTools button span.fa-angle-double-left, .floatingToolMenu ul li.Mrphs-collapseTools button span.fa-angle-double-left {
-        color: #00539b; }
+        color: #003B71; }
       #toolMenu ul li.Mrphs-collapseTools button:focus, #subSites ul li.Mrphs-collapseTools button:focus, .floatingToolMenu ul li.Mrphs-collapseTools button:focus {
-        outline-color: #201701 !important; }
+        outline-color: #3c2e28 !important; }
       #toolMenu ul li.Mrphs-collapseTools span.fa-angle-double-left, #subSites ul li.Mrphs-collapseTools span.fa-angle-double-left, .floatingToolMenu ul li.Mrphs-collapseTools span.fa-angle-double-left {
         -webkit-transition: transform 0.25s ease-out 0s;
         /* Safari 3.1 to 6.0 */
@@ -10846,11 +10849,11 @@ nav#subSites {
       text-align: left;
       padding: 0.7em 0.5em;
       text-decoration: none;
-      color: #00539b;
-      background-color: #fff;
+      color: #003B71;
+      background-color: #FFFFFF;
       font-weight: normal; }
       #toolMenu ul li .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon, #subSites ul li .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon {
-        color: #00539b; }
+        color: #003B71; }
       #toolMenu ul li .Mrphs-toolsNav__menuitem--link:before, #subSites ul li .Mrphs-toolsNav__menuitem--link:before, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link:before {
         border-left: none;
         content: '';
@@ -10860,12 +10863,12 @@ nav#subSites {
         top: 0;
         left: 0; }
       #toolMenu ul li .Mrphs-toolsNav__menuitem--link:hover, #subSites ul li .Mrphs-toolsNav__menuitem--link:hover, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link:hover {
-        color: #0736A4;
-        background: #dfe8fe; }
+        color: #266DEA;
+        background: #C3D1D7; }
         #toolMenu ul li .Mrphs-toolsNav__menuitem--link:hover:before, #subSites ul li .Mrphs-toolsNav__menuitem--link:hover:before, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link:hover:before {
           border-left: none; }
         #toolMenu ul li .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon, #subSites ul li .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon {
-          color: #0736A4; }
+          color: #266DEA; }
       @media only screen and (max-width: 800px) {
         #toolMenu ul li .Mrphs-toolsNav__menuitem--link, #subSites ul li .Mrphs-toolsNav__menuitem--link, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link {
           border: none;
@@ -10888,7 +10891,7 @@ nav#subSites {
         font-style: italic;
         position: relative;
         color: #A6A6A8;
-        background: #fff; }
+        background: #FFFFFF; }
         #toolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:before, #subSites ul li .Mrphs-toolsNav__menuitem--link.is-invisible:before, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:before {
           border-left: none; }
         #toolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible .Mrphs-toolsNav__menuitem--icon, #subSites ul li .Mrphs-toolsNav__menuitem--link.is-invisible .Mrphs-toolsNav__menuitem--icon, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible .Mrphs-toolsNav__menuitem--icon {
@@ -10900,31 +10903,31 @@ nav#subSites {
           top: 4px;
           right: 4px; }
         #toolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover, #subSites ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover {
-          color: #0736A4;
-          background: #dfe8fe; }
+          color: #266DEA;
+          background: #C3D1D7; }
           #toolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover:before, #subSites ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover:before, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover:before {
             border-left: none; }
           #toolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover .Mrphs-toolsNav__menuitem--icon, #subSites ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover .Mrphs-toolsNav__menuitem--icon, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:hover .Mrphs-toolsNav__menuitem--icon {
-            color: #0736A4; }
+            color: #266DEA; }
     #toolMenu ul li.is-current, #subSites ul li.is-current, .floatingToolMenu ul li.is-current {
       position: relative;
       margin-right: -1px; }
       #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link, #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link, .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link {
-        color: #0736A4;
-        background: #dfe8fe; }
+        color: #003B71;
+        background: #C3D1D7; }
         #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:before, #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link:before, .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:before {
           border-left: none; }
         #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon, #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon, .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon {
-          color: #0736A4; }
+          color: #003B71; }
         #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--title, #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--title, .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--title {
           font-weight: 700; }
         #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover, #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link:hover, .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover {
-          color: #0736A4;
-          background: #aec4fc; }
+          color: #266DEA;
+          background: #a4bac3; }
           #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover:before, #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link:hover:before, .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover:before {
             border-left: none; }
           #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon, #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon, .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon {
-            color: #0736A4; }
+            color: #266DEA; }
         @media only screen and (max-width: 800px) {
           #toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link, #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link, .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link {
             border: none; } }
@@ -10936,19 +10939,19 @@ nav#subSites {
           padding: 0.6em 0 0.6em 0em;
           background: #e6e6e6; }
           #toolMenu ul li .Mrphs-toolsNav__subnav li a:hover, #subSites ul li .Mrphs-toolsNav__subnav li a:hover, .floatingToolMenu ul li .Mrphs-toolsNav__subnav li a:hover {
-            background: #00539b;
-            color: #fff; }
+            background: #003B71;
+            color: #FFFFFF; }
           @media only screen and (max-width: 800px) {
             #toolMenu ul li .Mrphs-toolsNav__subnav li a, #subSites ul li .Mrphs-toolsNav__subnav li a, .floatingToolMenu ul li .Mrphs-toolsNav__subnav li a {
               padding: 0.6em 0.6em; } }
         #toolMenu ul li .Mrphs-toolsNav__subnav li.is-current a, #subSites ul li .Mrphs-toolsNav__subnav li.is-current a, .floatingToolMenu ul li .Mrphs-toolsNav__subnav li.is-current a {
-          background: #E8E9F3;
-          color: #0736A4; }
+          background: #FFFFFF;
+          color: #266DEA; }
           #toolMenu ul li .Mrphs-toolsNav__subnav li.is-current a .Mrphs-toolsNav__menuitem--title, #subSites ul li .Mrphs-toolsNav__subnav li.is-current a .Mrphs-toolsNav__menuitem--title, .floatingToolMenu ul li .Mrphs-toolsNav__subnav li.is-current a .Mrphs-toolsNav__menuitem--title {
             font-weight: 700; }
           #toolMenu ul li .Mrphs-toolsNav__subnav li.is-current a:hover, #subSites ul li .Mrphs-toolsNav__subnav li.is-current a:hover, .floatingToolMenu ul li .Mrphs-toolsNav__subnav li.is-current a:hover {
-            background: #E8E9F3;
-            color: #0736A4; }
+            background: #FFFFFF;
+            color: #266DEA; }
     #toolMenu ul li .Mrphs-toolsNav__category, #subSites ul li .Mrphs-toolsNav__category, .floatingToolMenu ul li .Mrphs-toolsNav__category {
       background-color: #d9d9d9; }
       @media only screen and (max-width: 800px) {
@@ -10962,19 +10965,19 @@ body #toolMenu li.has-lessons-sub-pages {
   body #toolMenu li.has-lessons-sub-pages > .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon:before {
     content: '\f0da'; }
   body #toolMenu li.has-lessons-sub-pages.has-lessons-sub-pages > .Mrphs-toolsNav__menuitem--link {
-    background-color: #fff !important; }
+    background-color: #FFFFFF !important; }
     body #toolMenu li.has-lessons-sub-pages.has-lessons-sub-pages > .Mrphs-toolsNav__menuitem--link.is-current .Mrphs-toolsNav__menuitem--title, body #toolMenu li.has-lessons-sub-pages.has-lessons-sub-pages > .Mrphs-toolsNav__menuitem--link.is-parent-of-current .Mrphs-toolsNav__menuitem--title {
       font-weight: bold !important; }
     body #toolMenu li.has-lessons-sub-pages.has-lessons-sub-pages > .Mrphs-toolsNav__menuitem--link:hover {
-      background-color: #dfe8fe !important; }
+      background-color: #C3D1D7 !important; }
   body #toolMenu li.has-lessons-sub-pages.has-lessons-sub-pages .lessons-top-level-placeholder .lessons-expand-collapse-icon {
     margin-right: 3.5px; }
     body #toolMenu li.has-lessons-sub-pages.has-lessons-sub-pages .lessons-top-level-placeholder .lessons-expand-collapse-icon .Mrphs-toolsNav__menuitem--icon {
       position: relative; }
   body #toolMenu li.has-lessons-sub-pages.has-lessons-sub-pages .lessons-top-level-placeholder .lessons-goto-top-page .Mrphs-toolsNav__menuitem--title {
-    color: #00539b; }
+    color: #003B71; }
   body #toolMenu li.has-lessons-sub-pages.has-lessons-sub-pages .lessons-top-level-placeholder .lessons-goto-top-page:hover .Mrphs-toolsNav__menuitem--title {
-    color: #0736A4; }
+    color: #266DEA; }
   body #toolMenu li.has-lessons-sub-pages.has-lessons-sub-pages .lessons-top-level-placeholder:hover .lessons-goto-top-page .Mrphs-toolsNav__menuitem--title:after {
     font-family: 'FontAwesome';
     content: '\f0a9';
@@ -10984,30 +10987,30 @@ body #toolMenu li.has-lessons-sub-pages {
     content: '\f0a9';
     padding-left: 4px; }
   body #toolMenu li.has-lessons-sub-pages.expanded {
-    background-color: #dfe8fe; }
+    background-color: #C3D1D7; }
     body #toolMenu li.has-lessons-sub-pages.expanded.is-parent-of-current > .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon {
-      color: #00539b !important; }
+      color: #003B71 !important; }
     body #toolMenu li.has-lessons-sub-pages.expanded.is-parent-of-current > .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--title {
-      color: #00539b !important;
+      color: #003B71 !important;
       font-weight: normal !important; }
     body #toolMenu li.has-lessons-sub-pages.expanded.is-parent-of-current > .Mrphs-toolsNav__menuitem--link:hover {
-      color: #0736A4 !important; }
+      color: #266DEA !important; }
       body #toolMenu li.has-lessons-sub-pages.expanded.is-parent-of-current > .Mrphs-toolsNav__menuitem--link:hover:before {
         border-left: none !important; }
       body #toolMenu li.has-lessons-sub-pages.expanded.is-parent-of-current > .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon {
         color: #A6A6A8 !important; }
     body #toolMenu li.has-lessons-sub-pages.expanded > .Mrphs-toolsNav__menuitem--link {
-      background-color: #dfe8fe !important; }
+      background-color: #C3D1D7 !important; }
       body #toolMenu li.has-lessons-sub-pages.expanded > .Mrphs-toolsNav__menuitem--link:hover {
-        background-color: #aec4fc !important; }
+        background-color: #a4bac3 !important; }
       body #toolMenu li.has-lessons-sub-pages.expanded > .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon {
         -ms-transform: rotate(90deg);
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg); }
   body #toolMenu li.has-lessons-sub-pages.sliding-down {
-    background-color: #dfe8fe !important; }
+    background-color: #C3D1D7 !important; }
     body #toolMenu li.has-lessons-sub-pages.sliding-down .Mrphs-toolsNav__menuitem--link {
-      background-color: #dfe8fe !important; }
+      background-color: #C3D1D7 !important; }
       body #toolMenu li.has-lessons-sub-pages.sliding-down .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon {
         -webkit-transition-duration: 0.5s;
         -moz-transition-duration: 0.5s;
@@ -11021,7 +11024,7 @@ body #toolMenu li.has-lessons-sub-pages {
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg); }
       body #toolMenu li.has-lessons-sub-pages.sliding-down .Mrphs-toolsNav__menuitem--link:hover {
-        background-color: #dfe8fe !important; }
+        background-color: #C3D1D7 !important; }
   body #toolMenu li.has-lessons-sub-pages.sliding-up .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon {
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
@@ -11055,14 +11058,14 @@ body #toolMenu li.has-lessons-sub-pages {
         text-overflow: ellipsis;
         overflow: hidden;
         border-left: none !important;
-        color: #00539b !important;
+        color: #003B71 !important;
         display: flex;
         align-items: center;
         text-decoration: none; }
         body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a:hover {
           border-left: none !important;
-          background-color: #dfe8fe !important;
-          color: #0736A4 !important; }
+          background-color: #C3D1D7 !important;
+          color: #266DEA !important; }
         body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a.is-invisible {
           color: #A6A6A8 !important;
           font-style: italic;
@@ -11071,9 +11074,9 @@ body #toolMenu li.has-lessons-sub-pages {
             font-style: normal !important;
             color: #A6A6A8 !important; }
           body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a.is-invisible:hover {
-            color: #0736A4 !important; }
+            color: #266DEA !important; }
             body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a.is-invisible:hover .Mrphs-toolsNav__menuitem--icon {
-              color: #0736A4 !important; }
+              color: #266DEA !important; }
           body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a.is-invisible:after {
             content: '\f070';
             position: absolute;
@@ -11085,7 +11088,7 @@ body #toolMenu li.has-lessons-sub-pages {
           body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a.has-prerequisite.disabled {
             cursor: not-allowed; }
           body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a.has-prerequisite:hover {
-            color: #0736A4 !important; }
+            color: #266DEA !important; }
             body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a.has-prerequisite:hover:after {
               content: '\f05e';
               position: absolute;
@@ -11095,21 +11098,21 @@ body #toolMenu li.has-lessons-sub-pages {
         margin-right: 0; }
         body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li.is-current a {
           font-weight: bold !important;
-          color: #0736A4 !important;
+          color: #003B71 !important;
           border-left: none !important;
           margin-right: 0; }
           body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li.is-current a:hover {
-            color: #0736A4 !important;
+            color: #266DEA !important;
             border-left: none !important;
-            background-color: #aec4fc !important; }
+            background-color: #a4bac3 !important; }
   body #toolMenu li.has-lessons-sub-pages.is-current .lessons-goto-top-page .Mrphs-toolsNav__menuitem--title {
-    color: #0736A4 !important; }
+    color: #003B71 !important; }
   body #toolMenu li.has-lessons-sub-pages.is-current .lessons-goto-top-page:hover .Mrphs-toolsNav__menuitem--title {
-    color: #0736A4 !important; }
+    color: #266DEA !important; }
   body #toolMenu li.has-lessons-sub-pages.is-current.is-parent-of-current .lessons-goto-top-page .Mrphs-toolsNav__menuitem--title {
-    color: #00539b !important; }
+    color: #003B71 !important; }
   body #toolMenu li.has-lessons-sub-pages.is-current.is-parent-of-current .lessons-goto-top-page:hover .Mrphs-toolsNav__menuitem--title {
-    color: #0736A4 !important; }
+    color: #266DEA !important; }
   @media only screen and (max-width: 1030px) {
     body #toolMenu li.has-lessons-sub-pages.expanded .lessons-goto-top-page {
       display: inline-block; } }
@@ -11127,9 +11130,9 @@ body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages .Mrphs-toolsNav
 body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrphs-toolsNav__menuitem--link, body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-parent-of-current .Mrphs-toolsNav__menuitem--link, body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.expanded.is-current .Mrphs-toolsNav__menuitem--link, body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.expanded.is-parent-of-current .Mrphs-toolsNav__menuitem--link {
   border-left: none !important; }
   body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon, body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-parent-of-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon, body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.expanded.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon, body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.expanded.is-parent-of-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon {
-    color: #0736A4 !important; }
+    color: #003B71 !important; }
   body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon, body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-parent-of-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon, body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.expanded.is-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon, body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.expanded.is-parent-of-current .Mrphs-toolsNav__menuitem--link:hover .Mrphs-toolsNav__menuitem--icon {
-    color: #0736A4 !important; }
+    color: #266DEA !important; }
 
 .Mrphs-pageColumns--single .Mrphs-toolTitleNav__button_container {
   top: -34px;
@@ -11154,7 +11157,7 @@ body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrp
       box-shadow: none;
       margin: 0 !important; }
     .Mrphs-multipleTools .Mrphs-container .Mrphs-container--toolTitleNav {
-      background-color: #fff;
+      background-color: #FFFFFF;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       padding: 0.6em; }
     .Mrphs-multipleTools .Mrphs-container .Mrphs-toolBody {
@@ -11278,14 +11281,14 @@ body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrp
         display: none; } }
 
 .Mrphs-toolBody {
-  background: #fff;
+  background: #FFFFFF;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   .Mrphs-toolBody iframe {
     margin: 0 0 0 0;
     width: 100%; }
 
 .portletBody {
-  background: #fff;
+  background: #FFFFFF;
   padding: 14px 14px 40px 14px; }
   @media only screen and (max-width: 800px) {
     .portletBody {
@@ -11329,10 +11332,10 @@ body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrp
     .navIntraTool li span {
       display: inline; }
       .navIntraTool li span a {
-        background: #fff;
-        border-top: 1px solid #fff;
-        border-left: 1px solid #fff;
-        border-right: 1px solid #fff;
+        background: #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+        border-left: 1px solid #FFFFFF;
+        border-right: 1px solid #FFFFFF;
         color: #353535;
         font-size: 12px;
         font-weight: normal;
@@ -11360,10 +11363,10 @@ body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrp
       .navIntraTool li span.current {
         color: #353535;
         font-size: 12.5px;
-        background-color: #fff;
-        border-top: 1px solid #fff;
-        border-left: 1px solid #fff;
-        border-right: 1px solid #fff;
+        background-color: #C3D1D7;
+        border-top: 1px solid #FFFFFF;
+        border-left: 1px solid #FFFFFF;
+        border-right: 1px solid #FFFFFF;
         position: relative;
         margin: 0;
         padding: 0 0.6em;
@@ -11372,7 +11375,7 @@ body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrp
         display: block;
         margin-bottom: -1px; }
         .navIntraTool li span.current:before {
-          border-top: 4px solid #656565;
+          border-top: 4px solid #162C41;
           content: "";
           display: block;
           position: absolute;
@@ -11380,7 +11383,7 @@ body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrp
           right: -1px;
           top: -1px; }
         .navIntraTool li span.current:after {
-          border-bottom: 1px solid #fff;
+          border-bottom: 1px solid #C3D1D7;
           content: '';
           display: block;
           position: absolute;
@@ -11405,7 +11408,7 @@ body.Mrphs-toolMenu-collapsed #toolMenu li.has-lessons-sub-pages.is-current .Mrp
   border-color: #346ef6;
   border-left-color: #0736A4;
   color: #010611;
-  background-color: #fff; }
+  background-color: #FFFFFF; }
   .instruction h1, .instruction h2, .instruction h3, .instruction h4, .instruction h5, .instruction h6 {
     margin-top: 0;
     color: #0736A4; }
@@ -11447,7 +11450,7 @@ table h4 {
 table.listHier {
   font-size: 14px;
   border: 1px solid #e6e6e6;
-  background-color: #fff;
+  background-color: #FFFFFF;
   margin: 1em 0; }
   @media only screen and (max-width: 800px) {
     table.listHier {
@@ -11501,21 +11504,21 @@ table.listHier {
 
 .Mrphs-sakai-schedule table.calendar {
   font-size: 0.8em;
-  background-color: #35a1ff; }
+  background-color: #0b8aff; }
   .Mrphs-sakai-schedule table.calendar tr td, .Mrphs-sakai-schedule table.calendar tr th {
     text-align: center;
     border-collapse: collapse; }
   .Mrphs-sakai-schedule table.calendar .event {
-    background-color: #00539b;
+    background-color: #003b71;
     border: #bbb; }
     .Mrphs-sakai-schedule table.calendar .event a {
-      color: #fff; }
+      color: #FFFFFF; }
   .Mrphs-sakai-schedule table.calendar .bgActivity {
-    background-color: #00539b;
+    background-color: #003b71;
     border: 1px solid #0064cd;
     text-align: right; }
     .Mrphs-sakai-schedule table.calendar .bgActivity a {
-      color: #fff; }
+      color: #FFFFFF; }
   .Mrphs-sakai-schedule table.calendar .bgWithoutActivity {
     background-color: #fff;
     border: 1px solid #bbb;
@@ -11531,15 +11534,15 @@ table.listHier {
     border-right: 1px solid #bbb;
     border-top: 1px solid #bbb; }
   .Mrphs-sakai-schedule table.calendar .borderGrayBackground {
-    background-color: #00539b;
+    background-color: #003b71;
     border-bottom: #bbb;
     border-left: #bbb;
     border-right: #bbb;
     border-top: #bbb; }
     .Mrphs-sakai-schedule table.calendar .borderGrayBackground a {
-      color: #fff; }
+      color: #FFFFFF; }
   .Mrphs-sakai-schedule table.calendar .borderGrayTodayBgCenter {
-    background-color: #00539b;
+    background-color: #003b71;
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
     border-top: #bbb; }
@@ -11574,26 +11577,26 @@ table.listHier {
     border-right: 1px solid #bbb;
     border-top: 1px solid #bbb; }
   .Mrphs-sakai-schedule table.calendar .borderOnlyLeftDay {
-    background-color: #00539b;
+    background-color: #003b71;
     border-left: #bbb; }
   .Mrphs-sakai-schedule table.calendar .borderOnlyLeft {
     border-left: 1px solid #bbb; }
   .Mrphs-sakai-schedule table.calendar .borderToday {
-    border: 2px solid #003868; }
+    border: 2px solid #00203e; }
   .Mrphs-sakai-schedule table.calendar .borderTodayCenter {
     border: 1px solid #bbb;
-    background-color: #4fadff; }
+    background-color: #2597ff; }
   .Mrphs-sakai-schedule table.calendar .borderTodayTop {
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
     border-top: 1px solid #fff;
-    background-color: #1c95ff; }
+    background-color: #007ef1; }
   .Mrphs-sakai-schedule table.calendar .borderTodayWithActivity {
-    background-color: #00539b;
-    border: 2px solid #003868;
+    background-color: #003b71;
+    border: 2px solid #00203e;
     text-align: right; }
     .Mrphs-sakai-schedule table.calendar .borderTodayWithActivity a {
-      color: #fff; }
+      color: #FFFFFF; }
   .Mrphs-sakai-schedule table.calendar .borderTodayWithoutActivity {
     background-color: #777;
     border: 1px solid #bbb;
@@ -11601,18 +11604,18 @@ table.listHier {
   .Mrphs-sakai-schedule table.calendar .borderTodayWithoutActivity a {
     color: #fff; }
   .Mrphs-sakai-schedule table.calendar .borderTopLeft {
-    background-color: #00539b;
+    background-color: #003b71;
     border-left: #bbb;
     border-right: #bbb;
     border-top: #bbb; }
     .Mrphs-sakai-schedule table.calendar .borderTopLeft a {
-      color: #fff; }
+      color: #FFFFFF; }
   .Mrphs-sakai-schedule table.calendar .borderTopLeftWhite {
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
     border-top: 1px solid #bbb; }
   .Mrphs-sakai-schedule table.calendar .borderWhiteYear {
-    background-color: #00539b;
+    background-color: #003b71;
     border: 1px solid #fff;
     text-align: center; }
   .Mrphs-sakai-schedule table.calendar .borderWhite {
@@ -11635,7 +11638,7 @@ table.listHier {
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
     border-bottom: 1px solid #bbb;
-    background-color: #4fadff; }
+    background-color: #2597ff; }
   .Mrphs-sakai-schedule table.calendar .timeCells {
     background: #eee; }
 
@@ -11746,7 +11749,7 @@ table.listHier {
                 .Mrphs-sakai-chat .panel-chat .panel-body-chat .chatListWrapperCont .chatListWrapper .chatListMonitor .chatList li.divisorNewMessages:not(.hide) + li {
                   border-top: 0; }
                 .Mrphs-sakai-chat .panel-chat .panel-body-chat .chatListWrapperCont .chatListWrapper .chatListMonitor .chatList li.divisorNewMessages:not(.hide) .newMessages {
-                  background: #00539b;
+                  background: #003B71;
                   border-radius: 50px;
                   padding: 2px 7px;
                   font-size: 10px;
@@ -11816,7 +11819,7 @@ table.listHier {
                   top: 0;
                   right: 8px;
                   cursor: pointer;
-                  color: #00539b; }
+                  color: #003B71; }
       .Mrphs-sakai-chat .panel-chat .panel-body-chat .chatListWrapperCont .scrollBottom {
         position: absolute;
         bottom: 0;
@@ -11834,7 +11837,7 @@ table.listHier {
         .Mrphs-sakai-chat .panel-chat .panel-body-chat .chatListWrapperCont .scrollBottom .newMessages {
           position: absolute;
           top: -10px;
-          background: #00539b;
+          background: #003B71;
           border-radius: 50px;
           padding: 2px 7px;
           font-size: 10px;
@@ -11903,7 +11906,7 @@ table.listHier {
 
 .Mrphs-footerApp__presence, .Mrphs-footerApp__portalChat {
   background-color: #656565;
-  color: #E8E9F3;
+  color: #FFFFFF;
   float: left;
   text-align: left;
   vertical-align: bottom;
@@ -11920,12 +11923,12 @@ table.listHier {
 .Mrphs-footerApp--toggle {
   display: block;
   padding: 2px 0px 0px 0px;
-  color: #fff !important;
+  color: #FFFFFF !important;
   text-decoration: none;
   height: 16px;
   font-weight: bold; }
   .Mrphs-footerApp--toggle:hover, .Mrphs-footerApp--toggle:link, .Mrphs-footerApp--toggle:active {
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none; }
 
 .Mrphs-footerApp--count.present {
@@ -11968,7 +11971,7 @@ table.listHier {
     font-weight: bold;
     padding: 5px;
     vertical-align: middle;
-    color: #E8E9F3;
+    color: #FFFFFF;
     background-color: #656565; }
     .Mrphs-presence__area--title--close {
       float: right;
@@ -11988,7 +11991,7 @@ table.listHier {
 
 .Mrphs-portalChat {
   width: 225px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   position: fixed;
   bottom: 30px;
   /* Needs to be to the right of the expanded presence block. See presenceArea. */
@@ -12019,7 +12022,7 @@ table.listHier {
     font-weight: bold;
     padding: 5px;
     vertical-align: middle;
-    color: #E8E9F3;
+    color: #FFFFFF;
     background-color: #656565; }
   .Mrphs-portalChat__container {
     clear: both; }
@@ -12106,14 +12109,14 @@ table.listHier {
     font-size: 0.8em;
     padding: 5px;
     vertical-align: middle;
-    color: #E8E9F3;
+    color: #FFFFFF;
     background-color: #656565;
     cursor: pointer;
     overflow: hidden;
     position: relative;
     height: 33px; }
     .Mrphs-portalChat__chat--title a {
-      color: #E8E9F3; }
+      color: #FFFFFF; }
   .Mrphs-portalChat__chat--container {
     position: fixed;
     /* The chats container is placed just to the left of the connections menu */
@@ -12252,7 +12255,7 @@ table.listHier {
       font-size: 14px;
       font-weight: bold;
       color: #656565;
-      background: none repeat scroll 0% 0% #fff;
+      background: none repeat scroll 0% 0% #FFFFFF;
       overflow: hidden;
       position: relative;
       height: 18px;
@@ -12298,7 +12301,7 @@ table.listHier {
       font-size: 1.5em;
       position: relative;
       top: 20px;
-      color: #E8E9F3;
+      color: #FFFFFF;
       background-color: #000; }
       .Mrphs-portalChat__videochat--statusfailed .Mrphs-footerApp--icon, .Mrphs-portalChat__videochat--statusfinished .Mrphs-footerApp--icon {
         font-size: 3em;
@@ -13173,7 +13176,7 @@ table.listHier {
   .Mrphs-sakai-assignment-grades #gradeOverridePanel {
     margin-left: 50px;
     width: 100%;
-    background-color: #fff; }
+    background-color: #FFFFFF; }
     .Mrphs-sakai-assignment-grades #gradeOverridePanel .row-override:nth-child(odd) {
       background: #f2f2f2; }
     .Mrphs-sakai-assignment-grades #gradeOverridePanel .row-override {
@@ -14096,12 +14099,12 @@ div#calendarEventDialog .eventAttachmentList {
   margin-right: 1em; }
 
 .Mrphs-sakai-samigo .toolTipLink {
-  color: #00539b;
+  color: #003B71;
   background-color: transparent;
   text-decoration: underline;
   cursor: pointer; }
   .Mrphs-sakai-samigo .toolTipLink:hover {
-    color: #0736A4;
+    color: #266DEA;
     background-color: transparent;
     text-decoration: underline; }
 
@@ -14195,7 +14198,7 @@ div#calendarEventDialog .eventAttachmentList {
   .Mrphs-sakai-resources .jstree-anchor:hover {
     text-decoration: none !important; }
   .Mrphs-sakai-resources #spinner {
-    color: #00539b;
+    color: #003B71;
     width: 100%;
     height: 128px;
     position: absolute;
@@ -14286,7 +14289,7 @@ div#calendarEventDialog .eventAttachmentList {
     top: 150px !important; }
   .Mrphs-sakai-resources .fa, .Mrphs-sakai-resources [class*="icon-sakai--"], .Mrphs-sakai-resources .Mrphs-mainHeader .Mrphs-loginUser li a .login-Icon, .Mrphs-mainHeader .Mrphs-loginUser li a .Mrphs-sakai-resources .login-Icon, .Mrphs-sakai-resources #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__drop, #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sakai-resources .Mrphs-sitesNav__drop, .Mrphs-sakai-resources #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__dropdown, #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sakai-resources .Mrphs-sitesNav__dropdown, .Mrphs-sakai-resources .Mrphs-sitesNav__doubledrop, .Mrphs-sakai-resources #subSites.floating a.Mrphs-toolsNav__menuitem--link.is-invisible:after, #subSites.floating .Mrphs-sakai-resources a.Mrphs-toolsNav__menuitem--link.is-invisible:after, .Mrphs-sakai-resources #toolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:after, #toolMenu ul li .Mrphs-sakai-resources .Mrphs-toolsNav__menuitem--link.is-invisible:after, .Mrphs-sakai-resources #subSites ul li .Mrphs-toolsNav__menuitem--link.is-invisible:after, #subSites ul li .Mrphs-sakai-resources .Mrphs-toolsNav__menuitem--link.is-invisible:after, .Mrphs-sakai-resources .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link.is-invisible:after, .floatingToolMenu ul li .Mrphs-sakai-resources .Mrphs-toolsNav__menuitem--link.is-invisible:after, .Mrphs-sakai-resources body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a.is-invisible:after, body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li .Mrphs-sakai-resources a.is-invisible:after, .Mrphs-sakai-resources body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li a.has-prerequisite:hover:after, body #toolMenu li.has-lessons-sub-pages ul.lessons-sub-page-menu li .Mrphs-sakai-resources a.has-prerequisite:hover:after, .Mrphs-sakai-resources .Mrphs-toolTitleNav .Mrphs-toolTitleNav__link:before, .Mrphs-toolTitleNav .Mrphs-sakai-resources .Mrphs-toolTitleNav__link:before, .Mrphs-sakai-resources .Mrphs-toolTitleNav .Mrphs-toolTitleNav__link--directurl, .Mrphs-toolTitleNav .Mrphs-sakai-resources .Mrphs-toolTitleNav__link--directurl, .Mrphs-sakai-resources .Mrphs-toolTitleNav .Mrphs-toolTitleNav__link--help-popup, .Mrphs-toolTitleNav .Mrphs-sakai-resources .Mrphs-toolTitleNav__link--help-popup, .Mrphs-sakai-resources .Mrphs-toolTitleNav .Mrphs-toolTitleNav__link--edit, .Mrphs-toolTitleNav .Mrphs-sakai-resources .Mrphs-toolTitleNav__link--edit, .Mrphs-sakai-resources .Mrphs-toolTitleNav .Mrphs-toolTitleNav__link--reset, .Mrphs-toolTitleNav .Mrphs-sakai-resources .Mrphs-toolTitleNav__link--reset, .Mrphs-sakai-resources .icon, .Mrphs-sakai-resources .Mrphs-footerApp--icon, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIcon, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIcon, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-1, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-1, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-2, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-2, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-3, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-3, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-4, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-4, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-5, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-5, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-6, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-6, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconDraft, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconDraft, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-1-draft, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-1-draft, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-2-draft, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-2-draft, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-3-draft, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-3-draft, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-4-draft, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-4-draft, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-5-draft, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-5-draft, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconThreshold-6-draft, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconThreshold-6-draft, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconWarn, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconWarn, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconPending, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconPending, .Mrphs-sakai-resources .Mrphs-sakai-assignment-grades .contentReviewIconNoService, .Mrphs-sakai-assignment-grades .Mrphs-sakai-resources .contentReviewIconNoService, .Mrphs-sakai-resources li[data_visible="false"] .jstree-anchor .jstree-icon, .Mrphs-sakai-resources .dropdown-menu .close-button, .Mrphs-sakai-resources .Mrphs-sakai-syllabus .editItem:hover:before, .Mrphs-sakai-syllabus .Mrphs-sakai-resources .editItem:hover:before, .Mrphs-sakai-resources .site-favorite-icon.site-favorite:before, .Mrphs-sakai-resources .site-favorite-icon.site-nonfavorite:before, .Mrphs-sakai-resources .site-favorite-icon.site-workspace:before, .Mrphs-sakai-resources #ckeditorPreview.modal .sakaipreview-print, #ckeditorPreview.modal .Mrphs-sakai-resources .sakaipreview-print, .Mrphs-sakai-resources #ckeditorPreview.modal .sakaipreview-close, #ckeditorPreview.modal .Mrphs-sakai-resources .sakaipreview-close {
     display: inline;
-    color: #00539b;
+    color: #003B71;
     text-decoration: none; }
   .Mrphs-sakai-resources a.nil.fa-folder {
     position: static; }
@@ -14341,7 +14344,7 @@ body > .portletBody > #calendarForm {
   font-weight: bolder; }
 
 .topic-filter {
-  background: #fff;
+  background: #FFFFFF;
   border: 1px solid #cccccc;
   margin: 1em 0;
   padding: 1em; }
@@ -14820,7 +14823,7 @@ body > .portletBody > #calendarForm {
     position: relative;
     cursor: pointer; }
     .Mrphs-sakai-syllabus .editItem:hover:before {
-      color: #00539b;
+      color: #003B71;
       position: absolute;
       right: 0; }
     .Mrphs-sakai-syllabus .editItem:hover.bodyInput:before {
@@ -14879,7 +14882,7 @@ body > .portletBody > #calendarForm {
         color: #656565 !important; }
       .Mrphs-sakai-syllabus #syllabus #accordion .ui-accordion .ui-accordion-header .editItemTitle {
         font-weight: bold;
-        color: #00539b;
+        color: #003B71;
         padding-left: 0;
         margin-left: 0;
         display: inline-block; }
@@ -14979,7 +14982,7 @@ body > .portletBody > #calendarForm {
       overflow: hidden;
       text-overflow: ellipsis; }
   #Mrphs-sakai-roster .roster-table .roster-member:nth-child(odd) {
-    background: #fff; }
+    background: #FFFFFF; }
 
 #Mrphs-sakai-roster .roster-picture {
   width: 50px; }
@@ -15046,7 +15049,7 @@ body > .portletBody > #calendarForm {
 .Mrphs-sakai-tagservice .incollection {
   font-size: smaller;
   font-style: italic;
-  color: #0736A4; }
+  color: #162C41; }
 
 .Mrphs-sakai-tagservice .tagservice-section {
   margin: 20px 0 30px; }
@@ -15158,11 +15161,11 @@ html[dir="rtl"] {
   left: calc(50% - 15em);
   width: 29em;
   min-height: 14em;
-  background: #E8E9F3;
+  background: #FFFFFF;
   box-shadow: 0 0 5px rgba(101, 101, 101, 0.25); }
   #Mrphs-xlogin .logo, #Mrphs-choice .logo {
-    background: #0736A4 url("https://www.ithaca.edu/themes/custom/ithaca/components/images/ic-primary-logo.svg") no-repeat center center;
-    background-size: auto 66px;
+    background: #162C41 url("https://ecm.ithaca.edu/wf/images/logo.svg") no-repeat center center;
+    background-size: 216px 36px;
     width: 100%;
     height: 64px;
     margin: 0 auto;
@@ -15173,7 +15176,7 @@ html[dir="rtl"] {
   #Mrphs-xlogin h1, #Mrphs-choice h1 {
     padding: 0.6em;
     font-size: 1.8em;
-    color: #00539b;
+    color: #003B71;
     text-align: center; }
   #Mrphs-xlogin .alertMessage, #Mrphs-choice .alertMessage {
     background: #f2dede;
@@ -15195,7 +15198,7 @@ html[dir="rtl"] {
     #Mrphs-xlogin fieldset input[type="text"], #Mrphs-choice fieldset input[type="text"], #Mrphs-xlogin fieldset input[type="password"], #Mrphs-choice fieldset input[type="password"] {
       display: inline-block;
       min-width: 56%;
-      border: 1px solid #041e5b;
+      border: 1px solid #030508;
       padding: 0.3em; }
       @media only screen and (max-width: 800px) {
         #Mrphs-xlogin fieldset input[type="text"], #Mrphs-choice fieldset input[type="text"], #Mrphs-xlogin fieldset input[type="password"], #Mrphs-choice fieldset input[type="password"] {
@@ -15237,7 +15240,7 @@ html[dir="rtl"] {
   padding: 0.6em;
   font-size: 1.4em;
   font-weight: 700;
-  color: #00539b;
+  color: #003B71;
   text-align: center; }
 
 #Mrphs-choice .link {
@@ -15259,7 +15262,7 @@ html[dir="rtl"] {
   z-index: 1000; }
 
 .capsLockOnDisplay {
-  background: #E8E9F3 url("images/capsLock.png") no-repeat right; }
+  background: #FFFFFF url("images/capsLock.png") no-repeat right; }
 
 .Mrphs-quickLinksNav__popup {
   border-right: 1px solid rgba(0, 0, 0, 0.1); }
@@ -15283,7 +15286,7 @@ html[dir="rtl"] {
   font-weight: 700;
   font-size: 14px;
   color: #656565;
-  background-color: #fff;
+  background-color: #FFFFFF;
   box-shadow: 5px 0 50px 0px rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 45px;
@@ -15300,7 +15303,7 @@ html[dir="rtl"] {
     position: absolute;
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
-    border-bottom-color: #fff;
+    border-bottom-color: #FFFFFF;
     border-width: 7px;
     margin-left: -7px;
     outline: 0; }
@@ -15313,7 +15316,7 @@ html[dir="rtl"] {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0 0.3em 0 0;
-    background-color: #fff; }
+    background-color: #FFFFFF; }
     #quickLinks .Mrphs-quickLinksNav__subnav #quickLinks-header .Mrphs-quickLinks-header--info {
       vertical-align: middle;
       padding-right: 1em; }
@@ -15337,7 +15340,7 @@ html[dir="rtl"] {
     margin: 0.3em;
     padding: 0.3em 0.5em 0.3em 0.5em;
     list-style: none;
-    background: #d7d9ea;
+    background: #f2f2f2;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px; }
@@ -15443,7 +15446,7 @@ body.active-more-sites {
           position: absolute;
           pointer-events: none;
           border-color: rgba(255, 255, 255, 0);
-          border-bottom-color: #fff;
+          border-bottom-color: #FFFFFF;
           border-width: 7px;
           margin-left: -7px;
           outline: 0; } }
@@ -15464,7 +15467,7 @@ body.active-more-sites {
     position: absolute;
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
-    border-bottom-color: #fff;
+    border-bottom-color: #FFFFFF;
     border-width: 7px;
     margin-left: -7px;
     outline: 0; }
@@ -15476,13 +15479,13 @@ body.active-more-sites {
 #selectSite .tab-box, #selectQuickLink .tab-box {
   padding: 5px 5px 5px 1em;
   height: 100%;
-  background-color: #fff;
+  background-color: #C3D1D7;
   margin: 0 1px 0 0; }
 
 #selectSite .tab-bar, #selectQuickLink .tab-bar {
   list-style: none;
   padding: 0 0 0 0;
-  border-bottom: 1px solid #fff; }
+  border-bottom: 1px solid #FFFFFF; }
 
 #selectSite .tab-bar .tab-btn, #selectQuickLink .tab-bar .tab-btn {
   position: relative;
@@ -15490,11 +15493,11 @@ body.active-more-sites {
   padding: 0 2em;
   height: 32px;
   line-height: 32px;
-  border: 1px solid #fff;
+  border: 1px solid #FFFFFF;
   border-bottom: 0;
   margin: 0;
   color: #353535;
-  background-color: #fff; }
+  background-color: #FFFFFF; }
 
 #selectSite .tab-bar .tab-btn:hover, #selectQuickLink .tab-bar .tab-btn:hover {
   cursor: pointer;
@@ -15512,9 +15515,9 @@ body.active-more-sites {
 #selectSite .tab-bar .tab-btn.active, #selectQuickLink .tab-bar .tab-btn.active {
   cursor: default;
   color: #353535;
-  background: #fff; }
+  background: #C3D1D7; }
   #selectSite .tab-bar .tab-btn.active:before, #selectQuickLink .tab-bar .tab-btn.active:before {
-    border-top: 4px solid #656565;
+    border-top: 4px solid #162C41;
     content: '';
     display: block;
     position: absolute;
@@ -15522,7 +15525,7 @@ body.active-more-sites {
     right: -1px;
     top: -1px; }
   #selectSite .tab-bar .tab-btn.active:after, #selectQuickLink .tab-bar .tab-btn.active:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #C3D1D7;
     content: '';
     display: block;
     position: absolute;
@@ -15761,7 +15764,7 @@ ul#otherSiteTools {
   list-style: none;
   padding-left: 0;
   padding-bottom: 5px;
-  background: #fff; }
+  background: #FFFFFF; }
   ul#otherSiteTools li {
     border: 0;
     margin: 0;
@@ -15771,7 +15774,7 @@ ul#otherSiteTools {
       padding: 5px 6px;
       color: #353535;
       font-size: 13px;
-      background: #fff;
+      background: #FFFFFF;
       text-decoration: none;
       font-weight: normal;
       border-left: 4px solid transparent; }
@@ -15920,9 +15923,9 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
   display: none; }
 
 #organizeFavoritesPurgatoryList a {
-  color: #052673; }
+  color: #09121b; }
   #organizeFavoritesPurgatoryList a .fullTitle {
-    color: #052673; }
+    color: #09121b; }
 
 .site-favorite-icon.site-favorite:before {
   color: #F49D08; }
@@ -15993,7 +15996,7 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
 #organize-favorites-pane {
   float: left;
   width: 70%;
-  border-right: solid 1px #fff; }
+  border-right: solid 1px #FFFFFF; }
 
 #favorite-settings-pane {
   float: left;
@@ -16001,13 +16004,13 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
   padding-left: 1em; }
   #favorite-settings-pane button {
     color: #656565 !important;
-    background: #E8E9F3;
-    border-color: #003868;
+    background: #FFFFFF;
+    border-color: #00203e;
     border-radius: 2px;
     padding: 0.6em; }
     #favorite-settings-pane button[aria-checked="true"] :first-child, #favorite-settings-pane button[aria-checked="false"] :last-child {
-      background-color: #0736A4;
-      color: #fff; }
+      background-color: #266DEA;
+      color: #FFFFFF; }
     #favorite-settings-pane button span {
       padding: 0.2em 0.6em;
       border-radius: 2px; }
@@ -16017,7 +16020,7 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
     float: none;
     width: 100%;
     border-right: none;
-    border-bottom: 1px solid #fff; }
+    border-bottom: 1px solid #FFFFFF; }
   #organizeFavorites #favorite-settings-pane {
     float: none;
     width: 100%;
@@ -16025,7 +16028,7 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
 
 #timeout_alert_body {
   z-index: 1001;
-  background: #E8E9F3;
+  background: #FFFFFF;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -16050,10 +16053,10 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
   .Mrphs-portalWrapper.swapped-view .Mrphs-topHeader {
     background: #F09905; }
   .Mrphs-portalWrapper.swapped-view .Mrphs-siteHierarchy {
-    background: #0736A4;
-    color: #E8E9F3; }
+    background: #162C41;
+    color: #FFFFFF; }
     .Mrphs-portalWrapper.swapped-view .Mrphs-siteHierarchy a {
-      color: #E8E9F3; }
+      color: #FFFFFF; }
   .Mrphs-portalWrapper.swapped-view .Mrphs-mainHeader.is-maximized .siteNavWrap {
     background: #F09905; }
 
@@ -16062,15 +16065,15 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #00539b;
-  color: #E8E9F3;
+  background-color: #003B71;
+  color: #FFFFFF;
   z-index: 50; }
   #cookie-notice .cookie-notice-content {
     max-width: 960px;
     margin: 1em auto;
     padding: 0.5em; }
   #cookie-notice a {
-    color: #0736A4; }
+    color: #162C41; }
   #cookie-notice .cookie-notice-text {
     display: inline; }
   #cookie-notice #cookie-notice-close {
@@ -16078,7 +16081,7 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
 
 .sakai-tutorial.qtip {
   border: 0 none;
-  background-color: #E8E9F3;
+  background-color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.4;
@@ -16099,7 +16102,7 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
     justify-content: space-between;
     padding: 4px 8px;
     background: #F09905;
-    color: #E8E9F3; }
+    color: #FFFFFF; }
   .sakai-tutorial.qtip .qtip-content {
     padding: 1em;
     border: 4px solid #F09905;
@@ -16114,7 +16117,7 @@ li.organizeFavorites:not(.active) .favoriteCountAndWarning.maxFavoritesReached {
   .sakai-tutorial.qtip .qtipClose {
     border: 0 none;
     background: none;
-    color: #E8E9F3; }
+    color: #FFFFFF; }
   .sakai-tutorial.qtip .tut-footer {
     display: flex;
     justify-content: space-between;
@@ -16270,14 +16273,14 @@ ul.styled-reorder-list {
 .portal-bullhorns.qtip {
   border: 0 none;
   box-shadow: 0 0 4px rgba(101, 101, 101, 0.35);
-  background-color: #fff;
+  background-color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: #FFFFFF;
   max-width: 450px;
   z-index: 100003 !important; }
   .portal-bullhorns.qtip .qtip-content {
-    background-color: #fff;
+    background-color: #FFFFFF;
     padding: 0;
     color: #656565; }
 
@@ -16379,7 +16382,7 @@ ul.styled-reorder-list {
     padding: 0; }
     #connection-manager #connection-manager-navbar li > span.current a {
       background-color: #FFFFFF !important;
-      color: #656565 !important;
+      color: #162C41 !important;
       pointer-events: none; }
 
 #connection-manager #connection-manager-connectionsview-searchbox-wrapper {
@@ -16674,7 +16677,7 @@ ul.styled-reorder-list {
   position: fixed;
   width: 100%;
   min-height: 14em;
-  background: #E8E9F3; }
+  background: #FFFFFF; }
   .Mrphs-joinpage .join {
     position: fixed;
     top: calc(50% - 17em);
@@ -16686,13 +16689,13 @@ ul.styled-reorder-list {
   .Mrphs-joinpage h1 {
     padding: 0.6em;
     font-size: 1.8em;
-    color: #00539b;
+    color: #003B71;
     text-align: center; }
   .Mrphs-joinpage .logo {
-    background: #0736A4 url("https://www.ithaca.edu/themes/custom/ithaca/components/images/ic-primary-logo.svg") no-repeat center center;
-    background-size: auto 66px;
+    background: #162C41 url("https://ecm.ithaca.edu/wf/images/logo.svg") no-repeat center center;
+    background-size: 216px 36px;
     width: 100%;
-    height: calc(66px * 2);
+    height: calc(36px * 2);
     margin: 0 auto;
     overflow: hidden; }
   .Mrphs-joinpage p {
