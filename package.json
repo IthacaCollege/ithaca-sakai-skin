@@ -15,6 +15,7 @@
   "scripts": {
     "sass": "./node_modules/gulp/bin/gulp.js sass",
     "browsersync": "./node_modules/gulp/bin/gulp.js default",
-    "devtools": "./node_modules/gulp/bin/gulp.js devtools"
+    "devtools": "./node_modules/gulp/bin/gulp.js devtools",
+    "dist": "./node_modules/gulp/bin/gulp.js dist"
   }
 }

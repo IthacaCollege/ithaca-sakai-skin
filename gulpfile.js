@@ -13,7 +13,7 @@ src = {
     scss: ['src/morpheus-master/sass/*.scss', 'src/sass/*.scss'],
     css:  'examples/css',
     html: 'examples/*.html',
-    dist: 'dist/ithaca',
+    dist: 'dist',
     devtools: 'devtools/ithaca-test.longsight.com/library/skin/ithaca'
 };
 
@@ -63,8 +63,10 @@ gulp.task('default', gulp.parallel('sass-browsersync', 'watch-browsersync'));
 gulp.task('dist', ()=>
     gulp.src(src.scss)
         .pipe(plumber())
+        .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer({ overrideBrowserslist: ['last 2 version', '> 5%'] }))
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(src.dist))
 );
 

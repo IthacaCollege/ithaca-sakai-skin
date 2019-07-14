@@ -14,28 +14,37 @@ Inspired by:
 * [ ] IE stylesheet build (anything else from maven build?)
 * [x] Colors / consistency
 * [ ] Design review
-* [ ] Script to package up theme files
+* [x] Script to package up theme files
 
 ### How to use
 
-To get started, install [Yarn](https://yarnpkg.com/en/) and run
+**To get started,** install [Yarn](https://yarnpkg.com/en/) and run
 
 ```bash
 yarn install
 ```
 
-To run local browser-sync for local development:
+**To run local browser-sync for local development:**
 
 
 ```bash
 yarn browsersync
 ```
 
-To run Chrome for development using the test instance:
+**To run Chrome for development using the test instance:**
 
 ```bash
 yarn devtools
 ```
 
 then, in Chrome, go to [the test site](https://ithaca-test.longsight.com), open developer tools,
-and in the Sources tab, set up the devtools directory as an override workspace.
+and in the Sources tab, set up the devtools directory as an override workspace. 
+[More on Local Overrides](https://developers.google.com/web/updates/2018/01/devtools#overrides).
+
+**To generate theme for distribution:**
+
+```bash
+yarn dist
+```
+
+Files will be placed into the `dist` directory.
