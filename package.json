@@ -1,9 +1,20 @@
 {
   "dependencies": {
     "browser-sync": "^2.26.7",
-    "gulp-sass": "^4.0.2"
+    "del": "^5.0.0",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-filter": "^6.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
   },
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "sass": "./node_modules/gulp/bin/gulp.js sass",
+    "browsersync": "./node_modules/gulp/bin/gulp.js default",
+    "devtools": "./node_modules/gulp/bin/gulp.js devtools"
   }
 }

@@ -1,5 +1,7 @@
 /.vscode
 /.idea
+/devtools
+/dist
 
 # Node
 node_modules

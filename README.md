@@ -12,15 +12,30 @@ Inspired by:
 * [x] Icons not working
 * [ ] Spacing on breadcrumbs
 * [ ] IE stylesheet build (anything else from maven build?)
-* [ ] Colors / consistency
+* [x] Colors / consistency
 * [ ] Design review
 * [ ] Script to package up theme files
 
 ### How to use
 
-To run local browser-sync for development:
+To get started, install [Yarn](https://yarnpkg.com/en/) and run
 
 ```bash
 yarn install
-gulp
 ```
+
+To run local browser-sync for local development:
+
+
+```bash
+yarn browsersync
+```
+
+To run Chrome for development using the test instance:
+
+```bash
+yarn devtools
+```
+
+then, in Chrome, go to [the test site](https://ithaca-test.longsight.com), open developer tools,
+and in the Sources tab, set up the devtools directory as an override workspace.

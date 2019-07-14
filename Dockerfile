@@ -10,6 +10,8 @@ RUN git clone https://github.com/sakaiproject/sakai.git /app \
 WORKDIR /app
 VOLUME /usr/share/maven/ref/repository
 RUN mvn -Dmaven.test.skip=true -Dmaven.tomcat.home=/build -Dsakai.home=/build/sakai -Djava.net.preferIPv4Stack=true clean install
+COPY src/sass/_ithaca.scss /_ithaca.scss
+RUN mvn -Dmaven.test.skip=true -Dmaven.tomcat.home=/build -Dsakai.home=/build/sakai -Djava.net.preferIPv4Stack=true -Dsakai.skin.customization.file=/_ithaca.scss -Dsakai.skin.target=ithaca sakai:deploy-exploded
 
 #FROM tomcat:8
 #COPY --from=build /build/lib/* /usr/local/tomcat/lib/
