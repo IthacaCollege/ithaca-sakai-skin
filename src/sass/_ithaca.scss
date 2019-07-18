@@ -95,7 +95,7 @@ $primary-color-shadow:			     adjust-hue( $primary-color, 5 );	// To give primar
 $secondary-color:  			         $grenadier !default;
 $alt-colour: 				         $california;
 $text-color:				         $dovegray;
-$body-background-color:              $background-color;
+$body-background-color:              #203137;
 $portal-background-color:            $background-color;
 $headings-color:                     $mine-shaft;
 
@@ -468,4 +468,65 @@ $focus-outline-color: $california;
 
 #linkNav ul li.Mrphs-sitesNav__menuitem {
 	border-radius: 3px;
+}
+
+.fa-home:before, .site-favorite-icon.site-workspace:before {
+   margin-right: .2em;
+}
+
+#toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link, #subSites ul li.is-current .Mrphs-toolsNav__menuitem--link, .floatingToolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link {
+  color: #003B71;
+}
+
+.Mrphs-mainHeader .Mrphs-headerLogo {
+  background: #003B71;
+}
+
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected {
+ background: #003B71;
+border-right: 1px solid #003B71;
+ border-bottom: 1px solid #003B71;
+border-left: 1px solid #003B71;
+}
+
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected.dropdown-is-visible, #linkNav ul li.Mrphs-sitesNav__menuitem.is-selected:hover {
+border-top: #003B71;
+ border-right: 1px solid #003B71;
+border-bottom: 1px solid #003B71;
+ border-left: 1px solid #003B71;
+background: #003B71;
+}
+
+#linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a:hover:before, #linkNav ul li.Mrphs-sitesNav__menuitem ul.Mrphs-sitesNav__submenu li.Mrphs-sitesNav__submenuitem a:active:before {
+border-left-color: #FFBB00;
+}
+
+#toolMenu ul li .Mrphs-toolsNav__menuitem--link:hover:before, #subSites ul li .Mrphs-toolsNav__menuitem--link:hover:before, .floatingToolMenu ul li .Mrphs-toolsNav__menuitem--link:hover:before {
+   border-left: 4px solid #FFBB00;
+}
+
+.button_color, input[type="submit"], input[type="button"], input[type="reset"], button, button.btn-primary {
+background: #003B71;
+border: 1px solid #9c9c9c;
+}
+
+.button_color:hover, input:hover[type="submit"], input:hover[type="button"], input:hover[type="reset"], button:hover, button.btn-primary:hover {
+  background: #9c9c9c;
+border-color: #003B71;
+}
+
+#linkNav ul li.Mrphs-sitesNav__menuitem.dropdown-is-visible, #linkNav ul li.Mrphs-sitesNav__menuitem:hover {
+  border-top: 1px solid #7F7F7F;
+border-right: 1px solid #7F7F7F;
+ border-bottom: 1px solid #7F7F7F;
+border-left: 1px solid #7F7F7F;
+background: #efefef;
+}
+
+.Mrphs-siteHierarchy a.Mrphs-hierarchy--toolName:hover {
+border-bottom: 1px solid #FFBB00;
+}
+
+a[href] {
+  color: #003B71;
 }
