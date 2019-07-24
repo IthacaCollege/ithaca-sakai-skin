@@ -1,6 +1,7 @@
 /* Global namespace */
 
-@import "customization"; //it is copied from the user supplied file by maven
+//@import "customization"; //it is copied from the user supplied file by maven
+@import "../../sass/ithaca";
 
 $namespace : "Mrphs-" !default;
 $skin-name : "morpheus-default" !default; // This is used for bootstrap font behaviour.
