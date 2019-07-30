@@ -1,3 +1,5 @@
+
+
 body.is-logged-out{
 	.#{$namespace}loginUser{
 		li{
@@ -15,7 +17,7 @@ body.is-logged-out{
 	}
 }
 
-.#{$namespace}mainHeader{
+.#{$ithaca}mainHeader{
 		box-shadow: $divider-shadow;
 		position: relative;
 

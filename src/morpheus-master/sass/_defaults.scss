@@ -1,6 +1,7 @@
 /* Global namespace */
 
 //@import "customization"; //it is copied from the user supplied file by maven
+@import "../../sass/ithaca";
 
 $namespace : "Mrphs-" !default;
 $skin-name : "morpheus-default" !default; // This is used for bootstrap font behaviour.
@@ -34,7 +35,7 @@ $header-font-weight: 700 !default;										// 400 or 700 as you wish
 $background-color: 			 #FFFFFF !default;
 $background-color-secondary: #3949AB !default;
 
-$primary-color:    			 #265b81 !default;
+$primary-color:    			 #1169BA  !default;
 $primary-color-highContrast: darken( $primary-color, 4% ) !default;	// for use of primary on non-white light backgrounds, such as greys
 $primary-color-shadow:			 adjust-hue( $primary-color, 5 ) !default;	// To give primary a darker shadow
 $secondary-color:  			 #F00 !default;
@@ -58,7 +59,8 @@ $tool-tab-text-size:                                      12px !default;
 $tool-tab-text-weight:                                    normal !default;
 $tool-tab-text-transform:                                 none !default;
 $tool-tab-text-letter-spacing:                            normal !default;
-$tool-tab-background-color:                               $tool-menu-background-color !default;
+$tool-tab-background-color:
+$tool-menu-background-color !default;
 $tool-tab-border-color:                                   #E5E5E5 !default;
 $tool-tab-hover-text-color:                               #191919 !default;
 $tool-tab-hover-background-color:                         #ECECEC !default;
@@ -336,7 +338,7 @@ $measure: 960px !default;
 $banner-height: 52px !default;
 
 /* Logo location */
-$logo: 'images/IC-PrimaryWhite.svg' !default;
+$logo: 'images/logo.png' !default;
 $logo-height: 36px !default;
 $logo-width: 60px !default;
 
