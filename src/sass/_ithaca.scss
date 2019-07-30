@@ -1,3 +1,7 @@
+$skin-name : "ithaca";
+
+
+
 // Ithaca Colors
 $gray-dark: #213138;
 $blue: #003B71;
@@ -34,6 +38,7 @@ $top-header-background: #003B71;
 
 
 
+
 // Logo location
 $logo: "https://becm.ithaca.edu/wf/images/logo.svg";
 $logo-height: 72px * 0.5;
@@ -63,10 +68,7 @@ $sakai-custom-icons : (
     sakai-attendance : (extend : fa-id-card-o)
 );
 
-
-
 // MJ overrides
-
 
 $text-color: #213138 !default;
 $primary-color: #1169BA;
