@@ -1,7 +1,5 @@
 $skin-name : "ithaca";
 
-
-
 // Ithaca Colors
 $gray-dark: #213138;
 $blue: #003B71;
@@ -30,13 +28,8 @@ $gold-trans: rgba(255, 187, 0, 0.2);
 $black: #000000;
 $gray-flat: #9C9C9C;
 
-
-
 // Primary Colors
 $top-header-background: #003B71;
-
-
-
 
 
 // Logo location
@@ -48,11 +41,8 @@ $skin-with-icons: true;
 $icon-size: 20px;
 
 
-
 /* topNav Main Menu */
 $header-size: 50px;
-
-
 
 // Icon Overrides
 $sakai-custom-icons : (
@@ -68,11 +58,7 @@ $sakai-custom-icons : (
     sakai-attendance : (extend : fa-id-card-o)
 );
 
-
-
 // MJ overrides
-
-
 
 $text-color: #213138 !default;
 $primary-color: #1169BA;
@@ -87,9 +73,9 @@ $tool-tab-active-highlight-color: #1169BA !default;
 $tool-menu-item-selected-text-color: #1169BA !default;
 $tool-menu-item-selected-icon-color: #1169BA !default;
 $tool-menu-item-selected-border-left: 4px solid #FFBB00 !default;
+$tool-menu-item-hover-border-left: 4px solid #FFBB00 !default;
+$all-sites-tool-menu-hover-left-border: 4px solid #FFBB00 !default;
 $tool-menu-item-selected-hover-text-color: #1169BA !default;
 $tool-menu-item-selected-hover-icon-color: #1169BA !default;
 $tool-menu-item-selected-hover-border-left: 4px solid #1169BA !default;
 $focus-outline-color: #266DEA;
-
-//comment to see if working?
