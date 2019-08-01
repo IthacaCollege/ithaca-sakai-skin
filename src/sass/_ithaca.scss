@@ -1,7 +1,5 @@
 $skin-name : "ithaca";
 
-
-
 // Ithaca Colors
 $gray-dark: #213138;
 $blue: #003B71;
@@ -30,6 +28,7 @@ $gold-trans: rgba(255, 187, 0, 0.2);
 $black: #000000;
 $gray-flat: #9C9C9C;
 
+
 //MJ colors
 $border-gray: #e5e5e5;
 
@@ -52,8 +51,10 @@ $icon-size: 20px;
 $button-hover-background-color: $gold;
 $button-hover-border-color: $blue-light;
 
+
 /* topNav Main Menu */
 $header-size: 50px;
+
 
 //MJ tries fancy Navigation
 $sites-nav-menu-item-background: $white;
@@ -98,9 +99,6 @@ $sites-nav-menu-item-hover-background: $gray-lighter;
     margin-right: .3em;
   }
 
-
-
-// Icon Overrides
 $sakai-custom-icons : (
     sakai-message-bundle-manager : ( extend : fa-edit ),
     sakai-blogwow : ( extend: fa-keyboard-o ),
@@ -121,3 +119,24 @@ $tool-menu-item-hover-background-color: $gray-lighter;
 // tool menu top of iframe active top border
 $tool-tab-active-highlight-color: $gold;
 $tool-tab-hover-background-color: $gray-lighter;
+=======
+// MJ overrides
+$text-color: #213138 !default;
+$primary-color: #1169BA;
+$background-color-secondary: #003B71 !default;
+$breadcrumbs-tool-color: #1169BA !default;
+$breadcrumbs-hover-color: #1169BA !default;
+$button-primary-background-color: #1169BA !default;
+$sites-nav-menu-item-selected-hover-background: #1169BA !default;
+$sites-nav-submenu-item-color: #1169BA !default;
+$tool-tab-active-text-color: #1169BA !default;
+$tool-tab-active-highlight-color: #1169BA !default;
+$tool-menu-item-selected-text-color: #1169BA !default;
+$tool-menu-item-selected-icon-color: #1169BA !default;
+$tool-menu-item-selected-border-left: 4px solid #FFBB00 !default;
+$tool-menu-item-hover-border-left: 4px solid #FFBB00 !default;
+$all-sites-tool-menu-hover-left-border: 4px solid #FFBB00 !default;
+$tool-menu-item-selected-hover-text-color: #1169BA !default;
+$tool-menu-item-selected-hover-icon-color: #1169BA !default;
+$tool-menu-item-selected-hover-border-left: 4px solid #1169BA !default;
+$focus-outline-color: #266DEA;
