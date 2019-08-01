@@ -1,7 +1,6 @@
 $skin-name : "ithaca";
 
 
-
 // Ithaca Colors
 $gray-dark: #213138;
 $blue: #003B71;
@@ -31,77 +30,114 @@ $black: #000000;
 $gray-flat: #9C9C9C;
 
 
+//trying to fix UG
+
+
+$primary-color: #1169BA;
+
+$breadcrumbs-tool-color: $blue-light;
+$breadcrumbs-hover-color: $blue-light;
+$button-primary-background-color: $blue-light;
+$sites-nav-menu-item-selected-hover-background: #1169BA !default;
+$sites-nav-submenu-item-color: $blue-light;
+$tool-tab-active-text-color: $blue-light;
+$tool-tab-active-highlight-color: $blue-light;
+
+
+
+
+//MJ colors
+$border-gray: #e5e5e5;
+$hover-background: #eeedeb;
 
 // Primary Colors
-$top-header-background: #003B71;
-
-
-
+$top-header-background: $blue;
+$text-color: $gray-dark;
+$primary-color: $gray-dark;
+$background-color-secondary: $blue;
+$focus-outline-color: #266DEA;
 
 
 // Logo location
 $logo: "https://becm.ithaca.edu/wf/images/logo.svg";
 $logo-height: 72px * 0.5;
 $logo-width: 432px * 0.5;
+
 // Tool icons
 $skin-with-icons: true;
 $icon-size: 20px;
 
+//Button hover ex. Calendar forward and back in src/morpheus-master/sass/base/_extendables.scss
+$button-hover-background-color: $gold;
+$button-hover-border-color: $blue-light;
 
 
 /* topNav Main Menu */
 $header-size: 50px;
 
 
+//MJ tries fancy Navigation
+$sites-nav-menu-item-background: $white;
+$sites-nav-menu-item-icon-color: $blue-gray;
+$sites-nav-menu-item-color: $blue-gray;
 
-// Icon Overrides
+
+$sites-nav-menu-item-border-top: 4px solid $border-gray; //from base.scss
+$sites-nav-menu-item-border-left: 1px solid $gray-lighter;
+$sites-nav-menu-item-border-right: 1px solid $gray-lighter;
+$sites-nav-menu-item-border-bottom: 1px solid $gray-lighter;
+
+$sites-nav-menu-item-selected-color: $blue-light;
+$sites-nav-menu-item-selected-icon-color: $blue-light;
+$sites-nav-menu-item-selected-background: $white;
+
+
+$sites-nav-menu-item-selected-border-top: 4px solid $gold;
+$sites-nav-menu-item-selected-border-left: 1px solid $gray-lighter;
+$sites-nav-menu-item-selected-border-right: 1px solid $gray-lighter;
+$sites-nav-menu-item-selected-border-bottom: 1px solid $gray-lighter;
+
+$sites-nav-menu-item-selected-hover-color: $white;
+$sites-nav-menu-item-selected-hover-border-top: 4px solid $gold;
+$sites-nav-menu-item-selected-hover-border-left: 1px solid $gray-lighter;
+$sites-nav-menu-item-selected-hover-border-right: 1px solid $gray-lighter;
+$sites-nav-menu-item-selected-hover-border-bottom: 1px solid $gray-lighter;
+
+$sites-nav-menu-item-hover-icon-color: $blue-light;
+$sites-nav-menu-item-hover-border-top: 4px solid $gold;
+$sites-nav-menu-item-hover-border-left: 1px solid $gray-lighter;
+$sites-nav-menu-item-hover-border-right: 1px solid $gray-lighter;
+$sites-nav-menu-item-hover-border-bottom: 1px solid $gray-lighter;
+$sites-nav-menu-item-hover-background: $hover-background;
+
+
+//MJ CSS hopes to fix the padding on the home icon on the nav menu. In base.scss)
+#linkNav ul li.Mrphs-sitesNav__menuitem span {
+    line-height: 1;
+    margin-right: .3em;
+  }
+
 $sakai-custom-icons : (
     sakai-message-bundle-manager : ( extend : fa-edit ),
     sakai-blogwow : ( extend: fa-keyboard-o ),
     sakai-help : ( extend: fa-info-circle ),
-    sakai-piazza : (extend : fa-comments-o),
     sakai-playposit : (extend : fa-lightbulb-o),
     sakai-qna : (extend : fa-question-circle-o),
     sakai-simple-rss : (extend : fa-rss),
     sakai-voicethread : (extend : fa-microphone),
-    sakai-warpwire : (extend : fa-play-circle),
     sakai-attendance : (extend : fa-id-card-o)
 );
 
 
+// tool menu top of iframe active top border
+$tool-tab-active-highlight-color: 4px solid $gold;
+$tool-tab-hover-background-color: $hover-background;
 
-// MJ overrides
-
-
-
-$text-color: #213138 !default;
-$primary-color: #1169BA;
-$background-color-secondary: #003B71 !default;
-$breadcrumbs-tool-color: #1169BA !default;
-$breadcrumbs-hover-color: #1169BA !default;
-$button-primary-background-color: #1169BA !default;
-$sites-nav-menu-item-selected-hover-background: #1169BA !default;
-$sites-nav-submenu-item-color: #1169BA !default;
-$tool-tab-active-text-color: #1169BA !default;
-$tool-tab-active-highlight-color: #1169BA !default;
-$tool-menu-item-selected-text-color: #1169BA !default;
-$tool-menu-item-selected-icon-color: #1169BA !default;
-$tool-menu-item-selected-border-left: 4px solid #FFBB00 !default;
-$tool-menu-item-hover-border-left: 4px solid #FFBB00 !default;
-$all-sites-tool-menu-hover-left-border: 4px solid #FFBB00 !default;
-$tool-menu-item-selected-hover-text-color: #1169BA !default;
-$tool-menu-item-selected-hover-icon-color: #1169BA !default;
-$tool-menu-item-selected-hover-border-left: 4px solid #1169BA !default;
-$focus-outline-color: #266DEA;
-$tool-menu-item-icon-color: #3A5A79 !default;
-$tool-nav-link-color: #3A5A79 !default;
-$sites-nav-menu-item-icon-color: #3A5A79 !default;
-$sites-nav-submenu-item-icon-color: #3A5A79 !default;
-$all-sites-button-dropdown-color: #3A5A79 !default;
-$all-sites-tool-menu-icon-color: #3A5A79  !default;
-$all-sites-close-action-color: #3A5A79 !default;
-$button-secondary-hover-border-color: #1169ba !default;
-$sites-nav-menu-item-hover-border-color: #1169ba !default;
-$sites-nav-submenu-item-hover-left-border-color: #1169ba!default;
-$all-sites-button-selected-border-color: #1169ba !default;
-$all-sites-button-hover-border-color: #1169ba  !default;$all-sites-tool-menu-hover-left-border:  4px solid #1169ba !default;
+// Tool Menu overrides
+$tool-menu-item-hover-background-color: $hover-background;
+$tool-menu-item-selected-text-color: $blue-light;
+$tool-menu-item-selected-icon-color: $blue-light;
+$tool-menu-item-selected-border-left: 4px solid $gold;
+$tool-menu-item-selected-hover-text-color: $blue-light;
+$tool-menu-item-selected-hover-icon-color: $blue-light;
+$tool-menu-item-selected-hover-border-left: 4px solid $gold;
