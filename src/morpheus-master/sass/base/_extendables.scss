@@ -1,4 +1,5 @@
 @import "compass";
+@import "../../sass/ithaca";
 
 .sitesNav__drop{
 	cursor: pointer;
@@ -78,7 +79,7 @@
 }
 
 @mixin toolicon( $width : $icon-size, $height : $icon-size ){
-	
+
 	@if $skin-with-icons {
 		border:  0px none;
 		display: inline-block;
@@ -302,7 +303,7 @@ a.noPointers, input.noPointers {
 	margin-left: 5px;
 }
 
-.spinnerBesideContainer { 
+.spinnerBesideContainer {
 	@include display-flex;
 	@include align-items( center );
 	label {
@@ -315,7 +316,7 @@ a.noPointers, input.noPointers {
 /*** End button spinner overlay ***/
 .ui-dialog.ui-widget {
 	@media #{$phone}{
-		width: 95% !important; 
+		width: 95% !important;
 		left: 2.5% !important;
 	}
 }
@@ -350,7 +351,7 @@ label.panelGridLabel{
 		border-color: lighten( $tool-menu-color, 5% ) !important;
 		background-color: lighten( $tool-menu-background-color, 5% ) !important;
 	}
-	
+
 	.dz-progress{
 		top: 70% !important;
 	}

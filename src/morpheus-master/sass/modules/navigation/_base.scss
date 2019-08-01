@@ -1,5 +1,5 @@
 
-
+@import "../../sass/ithaca";
 body.is-logged-out{
 	.#{$namespace}loginUser{
 		li{
@@ -17,7 +17,7 @@ body.is-logged-out{
 	}
 }
 
-.#{$ithaca}mainHeader{
+.#{$namespace}mainHeader{
 		box-shadow: $divider-shadow;
 		position: relative;
 
