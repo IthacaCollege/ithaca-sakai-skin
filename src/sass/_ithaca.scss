@@ -30,20 +30,19 @@ $black: #000000;
 $gray-flat: #9C9C9C;
 
 
-//trying to fix UG
 
+//trying to fix
 
-$primary-color: #1169BA;
 
 $breadcrumbs-tool-color: $blue-light;
+$breadcrumbs-active-color:$blue-light;
 $breadcrumbs-hover-color: $blue-light;
 $button-primary-background-color: $blue-light;
-$sites-nav-menu-item-selected-hover-background: #1169BA !default;
+$sites-nav-menu-item-selected-hover-background: $blue-light;
 $sites-nav-submenu-item-color: $blue-light;
+
 $tool-tab-active-text-color: $blue-light;
 $tool-tab-active-highlight-color: $blue-light;
-
-
 
 
 //MJ colors
@@ -52,8 +51,8 @@ $hover-background: #eeedeb;
 
 // Primary Colors
 $top-header-background: $blue;
-$text-color: $gray-dark;
-$primary-color: $gray-dark;
+$text-color: $blue-dark;
+$primary-color: #666;
 $background-color-secondary: $blue;
 $focus-outline-color: #266DEA;
 
@@ -83,9 +82,9 @@ $sites-nav-menu-item-color: $blue-gray;
 
 
 $sites-nav-menu-item-border-top: 4px solid $border-gray; //from base.scss
-$sites-nav-menu-item-border-left: 1px solid $gray-lighter;
-$sites-nav-menu-item-border-right: 1px solid $gray-lighter;
-$sites-nav-menu-item-border-bottom: 1px solid $gray-lighter;
+$sites-nav-menu-item-border-left: 1px solid $gray-light;
+$sites-nav-menu-item-border-right: 1px solid $gray-light;
+$sites-nav-menu-item-border-bottom: 1px solid $gray-light;
 
 $sites-nav-menu-item-selected-color: $blue-light;
 $sites-nav-menu-item-selected-icon-color: $blue-light;
@@ -93,29 +92,29 @@ $sites-nav-menu-item-selected-background: $white;
 
 
 $sites-nav-menu-item-selected-border-top: 4px solid $gold;
-$sites-nav-menu-item-selected-border-left: 1px solid $gray-lighter;
-$sites-nav-menu-item-selected-border-right: 1px solid $gray-lighter;
-$sites-nav-menu-item-selected-border-bottom: 1px solid $gray-lighter;
+$sites-nav-menu-item-selected-border-left: 1px solid $gray-light;
+$sites-nav-menu-item-selected-border-right: 1px solid $gray-light;
+$sites-nav-menu-item-selected-border-bottom: 1px solid $gray-light;
 
 $sites-nav-menu-item-selected-hover-color: $white;
 $sites-nav-menu-item-selected-hover-border-top: 4px solid $gold;
-$sites-nav-menu-item-selected-hover-border-left: 1px solid $gray-lighter;
-$sites-nav-menu-item-selected-hover-border-right: 1px solid $gray-lighter;
-$sites-nav-menu-item-selected-hover-border-bottom: 1px solid $gray-lighter;
+$sites-nav-menu-item-selected-hover-border-left: 1px solid $gray-light;
+$sites-nav-menu-item-selected-hover-border-right: 1px solid $gray-light;
+$sites-nav-menu-item-selected-hover-border-bottom: 1px solid $gray-light;
 
-$sites-nav-menu-item-hover-icon-color: $blue-light;
+
 $sites-nav-menu-item-hover-border-top: 4px solid $gold;
-$sites-nav-menu-item-hover-border-left: 1px solid $gray-lighter;
-$sites-nav-menu-item-hover-border-right: 1px solid $gray-lighter;
-$sites-nav-menu-item-hover-border-bottom: 1px solid $gray-lighter;
+$sites-nav-menu-item-hover-border-left: 1px solid $gray-light;
+$sites-nav-menu-item-hover-border-right: 1px solid $gray-light;
+$sites-nav-menu-item-hover-border-bottom: 1px solid $gray-light;
 $sites-nav-menu-item-hover-background: $hover-background;
 
-
+/*
 //MJ CSS hopes to fix the padding on the home icon on the nav menu. In base.scss)
 #linkNav ul li.Mrphs-sitesNav__menuitem span {
     line-height: 1;
     margin-right: .3em;
-  }
+  } */
 
 $sakai-custom-icons : (
     sakai-message-bundle-manager : ( extend : fa-edit ),
@@ -131,10 +130,12 @@ $sakai-custom-icons : (
 
 // tool menu top of iframe active top border
 $tool-tab-active-highlight-color: 4px solid $gold;
+$tool-tab-hover-highlight-color: 4px solid $gold;
 $tool-tab-hover-background-color: $hover-background;
 
 // Tool Menu overrides
 $tool-menu-item-hover-background-color: $hover-background;
+$tool-menu-item-hover-border-left: 4px solid $gold;
 $tool-menu-item-selected-text-color: $blue-light;
 $tool-menu-item-selected-icon-color: $blue-light;
 $tool-menu-item-selected-border-left: 4px solid $gold;
